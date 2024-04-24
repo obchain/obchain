@@ -43,7 +43,7 @@ I'm a proficient Blockchain Developer specializing in crafting secure smart cont
 - Optimized performance for Dapps, ensuring smooth user experiences even under high transaction loads.
 
 ## Let's Connect!
-I'm passionate about blockchain technology and building innovative solutions. Connect with me on [LinkedIn](https://github.com/obpool) for further discussions!
+I'm passionate about blockchain technology and building innovative solutions. Connect with me on [LinkedIn](https://www.linkedin.com/in/nikhil-bajaj31/) for further discussions!
 
 
 <!--
