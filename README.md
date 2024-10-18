@@ -42,9 +42,6 @@ I'm a proficient Blockchain Developer specializing in crafting secure smart cont
 - Implemented routing and state management using React Router and Redux for scalable and maintainable applications.
 - Optimized performance for Dapps, ensuring smooth user experiences even under high transaction loads.
 
-## Let's Connect!
-I'm passionate about blockchain technology and building innovative solutions. Connect with me on [LinkedIn](https://www.linkedin.com/in/nikhil-bajaj31/) for further discussions!
-
 
 <!--
 **obpool/obpool** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
