@@ -43,6 +43,9 @@ I'm a proficient Blockchain Developer specializing in crafting secure smart cont
 - Optimized performance for Dapps, ensuring smooth user experiences even under high transaction loads.
 
 
+![My Github Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=obpool&layout=compact&hide=html&theme=cobalt)
+
+
 <!--
 **obpool/obpool** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
