@@ -25,13 +25,14 @@ I'm a proficient Blockchain Developer specializing in crafting secure smart cont
 - Designed and optimized AMM (Automated Market Maker), demonstrating a deep understanding of liquidity pools, trading algorithms, and DEX dynamics.
 - Developed permissionless Perpetual DEXs with AMMs facilitating settlement of positions for buyers and sellers.
 - Enhanced Perpetual DEXs encompassing perpetual contracts, funding rates, and swaps.
-- Created lending and borrowing protocols including Core Pool, Market, and Isolated Pools.
-- Designed stable/variable rate borrowing features and integrated block/time-based interest rate models.
-- Developed a risk management platform to settle bad debts through auctions.
-- Contributed to architectures like Passive Converter, 2535-Diamond Proxy, 4626 vaults, DAO Governance bravo contracts
-- Oracles: TWAP, Pyth, Binance, Chainlink, Resilient Oracle
+- Worked on the Lending & Borrowing design that is heavily influenced by the concentrated liquidity mechanism of Uniswap V3, enabling more efficient capital utilization.
+- Worked on arbitrage across Uniswap.
+- Optimized betting algorithms, reducing computation time by 40%, resulting in a more efficient and seamless experience for users.
+- Worked closely with Energi Core (EVM chain) and other protocols to ensure scalability and security across the blockchain network.
+- Oracles: TWAP, Pyth, Binance, Chainlink, Red Stone.
 - Deployed cross-chain governance systems using Layer-0 interoperability protocols.
 - Chains worked on: Binance, Polygon, Ethereum, opBNB, and Arbitrum.
+- Designed and implemented staking contracts, allowing users to earn rewards on platform tokens, boosting token value and fostering increased user participation.
 
 ### Frontend
 - Developed responsive and interactive blockchain web applications using React.js.
