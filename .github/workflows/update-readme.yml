@@ -4,10 +4,10 @@ on:
   push:
     branches: [main]
   schedule:
-    # 6 AM IST (00:30 UTC)
-    - cron: '30 0 * * *'
-    # 6 PM IST (12:30 UTC)
-    - cron: '30 12 * * *'
+    # 5:54 AM IST (00:24 UTC)
+    - cron: '24 0 * * *'
+    # 5:54 PM IST (12:24 UTC)
+    - cron: '24 12 * * *'
   workflow_dispatch:
 
 permissions:
