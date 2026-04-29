@@ -1,16 +1,18 @@
 # Hey, I'm Riteish 🧱
 
-> I build DeFi protocols — on-chain options pricing, perpetual DEXs, and cross-chain governance.
+> Full-stack engineer — DeFi protocols · AI agents · Rust systems · Go services.
 
 ---
 
-I design and ship smart contracts that handle real liquidity on mainnet. My most interesting project is **[MantissaFi](https://github.com/obchain/MantissaFi)** — a fully on-chain European options protocol that implements **Black-Scholes-Merton pricing entirely in Solidity**.
+I build production systems across three stacks: **smart contracts** (Solidity), **AI agents and LLM tooling** (Python · Claude · MCP), and **performance-critical backends** (Rust · Go). I care about software that survives adversarial conditions — because the systems I ship handle real liquidity, real users, and real money.
 
-At **[@mahaxyz](https://github.com/mahaxyz)**, I work on the core protocol: stablecoin mechanics, governance, and the Solana expansion. The core [contracts repo](https://github.com/mahaxyz/contracts) has **37+ stars** and active production deployments.
+On the **DeFi side**, my flagship is **[MantissaFi](https://github.com/obchain/MantissaFi)** — a fully on-chain European options protocol that implements **Black-Scholes-Merton pricing entirely in Solidity**. At **[@mahaxyz](https://github.com/mahaxyz)**, I work on the core protocol: stablecoin mechanics, governance, and the Solana expansion. The core [contracts repo](https://github.com/mahaxyz/contracts) has **37+ stars** and active production deployments. I've built AMMs, perpetual DEXs, lending markets influenced by Uniswap V3 concentrated liquidity, and cross-chain governance with **LayerZero** and **Chainlink CCIP**.
 
-I've built AMMs, perpetual DEXs, lending markets influenced by Uniswap V3 concentrated liquidity, and cross-chain governance with **LayerZero** and **Chainlink CCIP**. I care about contracts that are gas-efficient, fuzz-tested, and built to survive adversarial environments — because in DeFi, production *is* the war zone.
+On the **AI side**, I design on-chain agent frameworks ([agent-contracts](https://github.com/obchain/agent-contracts)) and contribute to LLM-native developer tooling at **[@tinyhumansai](https://github.com/tinyhumansai)** — planner sandboxes around composio meta-tools, ambient runtime injection into system prompts, and weekly-review aggregation pipelines. I work fluently with Claude/Anthropic SDKs, MCP servers, prompt evals, and agent orchestration.
 
-Currently freelancing — building protocol infra, designing derivatives vaults, and shipping smart contracts for teams that need security-first engineering.
+On the **systems side**, I build in Rust — **[Charon](https://github.com/obchain/Charon)** is a multi-chain, flash-loan-backed liquidation bot that monitors under-collateralized DeFi positions and atomically liquidates via Aave + Venus + PancakeSwap. Concurrent scanners, Prometheus metrics, gas-aware profit gating, EIP-1559 nonce management. Go for backend services and infrastructure tooling.
+
+Currently freelancing — protocol design, smart-contract engineering, AI agent infra, and Rust systems for teams that need security-first execution.
 
 ---
 
@@ -22,12 +24,17 @@ Currently freelancing — building protocol infra, designing derivatives vaults,
 | **[agent-contracts](https://github.com/obchain/agent-contracts)** | Smart contracts powering an AI Agent Framework | Solidity |
 | **[gmx-v2-lens](https://github.com/obchain/gmx-v2-lens)** | Market analytics aggregator for the GMX V2 perpetual DEX | Solidity |
 | **[Charon](https://github.com/obchain/Charon)** | Multi-chain, flash-loan-backed liquidation bot — atomic Aave + Venus + PancakeSwap flow | Rust · Foundry |
+| **[streamed-cache-rust](https://github.com/obchain/streamed-cache-rust)** | High-performance streaming temperature cache | Rust · Tokio |
 | **[ferros-vault](https://github.com/obchain/ferros-vault)** | Institutional-grade tokenized USDC yield vault | Solidity · ERC-4626 |
-| **[CrossChain-Bridge](https://github.com/obchain/CrossChain-Bridge)** | Cross-chain asset bridge experiments | Solidity |
+| **[xyz-bridge](https://github.com/obchain/xyz-bridge)** | Cross-chain bridge with relayer service | Solidity · TypeScript |
 
 ---
 
 ## 🌐 Protocol Contributions
+
+> Auto-updated from public PR data. See [`.github/workflows/update-readme.yml`](.github/workflows/update-readme.yml).
+
+<!-- PROTOCOL_CONTRIBUTIONS:START -->
 
 <details>
 <summary><strong>🟣 MahaXYZ</strong> — Core contributor · stablecoin mechanics, governance, cross-chain expansion · <em>15 PRs</em></summary>
@@ -38,44 +45,31 @@ Currently freelancing — building protocol infra, designing derivatives vaults,
 
 | # | Title | Status |
 |---|-------|--------|
-| [#42](https://github.com/mahaxyz/contracts/pull/42) | Deployment Script for LockerToken and OmnichainStaking Contracts | `merged` |
-| [#43](https://github.com/mahaxyz/contracts/pull/43) | Modify ZapAerodromePoolUSDC to Accept Any Token via Odos | `merged` |
-| [#44](https://github.com/mahaxyz/contracts/pull/44) | Add PSM Contract with ERC4626 Support and Yield Collection | `merged` |
-| [#45](https://github.com/mahaxyz/contracts/pull/45) | MAHA Protocol Revenue Collector — USDe→USDC, Buyback & Burn | `merged` |
-| [#46](https://github.com/mahaxyz/contracts/pull/46) | Multi-token support in ZapAerodromePoolUSDC via Odos API | `merged` |
+| [#72](https://github.com/mahaxyz/contracts/pull/72) | Unstake & Withdraw Feat on OmnichainStaking Token contract on Base | `open` |
+| [#71](https://github.com/mahaxyz/contracts/pull/71) | Deployment for MahaUIHelper  | `open` |
+| [#70](https://github.com/mahaxyz/contracts/pull/70) | Work on a 4626 vault for MAHA that takes USDC as Collateral | `open` |
+| [#59](https://github.com/mahaxyz/contracts/pull/59) | Deployment of MigratorContract &  BuyBackBurn Maha on Base Chain  | `open` |
+| [#54](https://github.com/mahaxyz/contracts/pull/54) | Implement User Migration with Merkle Tree and Bonus System for MAHA Locker | `open` |
+| [#49](https://github.com/mahaxyz/contracts/pull/49) | Add support for multiple token types in ZapAerodromePoolUSDC contract using Odos API for swaps Fixes | `open` |
+| [#48](https://github.com/mahaxyz/contracts/pull/48) | WIP: MAHA Protocol Revenue Collector Contract for USDe to USDC Conversion, Buyback & Burn, and Distribution to sUSDz Stakers | `open` |
 | [#47](https://github.com/mahaxyz/contracts/pull/47) | Add MahaUIHelper Contract for User Staking and Locking Info | `open` |
-| [#48](https://github.com/mahaxyz/contracts/pull/48) | MAHA Protocol Revenue Collector (WIP iteration) | `open` |
-| [#49](https://github.com/mahaxyz/contracts/pull/49) | Multi-token ZapAerodromePoolUSDC fixes | `open` |
-| [#54](https://github.com/mahaxyz/contracts/pull/54) | User Migration with Merkle Tree + Bonus System for MAHA Locker | `open` |
-| [#59](https://github.com/mahaxyz/contracts/pull/59) | Deployment of MigratorContract & BuyBackBurn MAHA on Base | `open` |
-| [#70](https://github.com/mahaxyz/contracts/pull/70) | ERC-4626 vault for MAHA accepting USDC as collateral | `open` |
-| [#71](https://github.com/mahaxyz/contracts/pull/71) | Deployment for MahaUIHelper | `open` |
-| [#72](https://github.com/mahaxyz/contracts/pull/72) | Unstake & Withdraw on OmnichainStaking Token contract on Base | `open` |
+| [#46](https://github.com/mahaxyz/contracts/pull/46) | Add support for multiple token types in ZapAerodromePoolUSDC contract using Odos API for swaps | `merged` |
+| [#45](https://github.com/mahaxyz/contracts/pull/45) | WIP: MAHA Protocol Revenue Collector Contract for USDe to USDC Conversion, Buyback & Burn, and Distribution to sUSDz Stakers | `merged` |
+| [#44](https://github.com/mahaxyz/contracts/pull/44) | Add PSM Contract with ERC4626 Support and Yield Collection Functionality | `merged` |
+| [#43](https://github.com/mahaxyz/contracts/pull/43) | Modify ZapAerodromePoolUSDC to Accept Any Token as Input via Odos | `merged` |
+| [#42](https://github.com/mahaxyz/contracts/pull/42) | Deployment Script for LockerToken and OmnichainStaking Contracts | `merged` |
 
-**[mahaxyz/solana-contracts](https://github.com/mahaxyz/solana-contracts)** &nbsp; — &nbsp; Anchor / Rust
+**[mahaxyz/solana-contracts](https://github.com/mahaxyz/solana-contracts)** &nbsp; 2 forks &nbsp; — &nbsp; Anchor / Rust
 
 | # | Title | Status |
 |---|-------|--------|
 | [#1](https://github.com/mahaxyz/solana-contracts/pull/1) | Solana Launchpad Contracts | `merged` |
 
-**[mahaxyz/timelocks](https://github.com/mahaxyz/timelocks)** &nbsp; — &nbsp; Multi-chain timelock infrastructure
+**[mahaxyz/timelocks](https://github.com/mahaxyz/timelocks)** &nbsp; 1 fork &nbsp; — &nbsp; Multi-chain timelock infrastructure
 
 | # | Title | Status |
 |---|-------|--------|
-| [#1](https://github.com/mahaxyz/timelocks/pull/1) | Timelock script for Unstake & Withdraw OmnichainStaking on Base | `open` |
-
-</details>
-
-<details>
-<summary><strong>🟠 MahaDAO</strong> — DAO governance contracts · <em>1 PR</em></summary>
-
-<br>
-
-**[MahaDAO/governance-contracts](https://github.com/MahaDAO/governance-contracts)**
-
-| # | Title | Status |
-|---|-------|--------|
-| [#30](https://github.com/MahaDAO/governance-contracts/pull/30) | Merkle Tree Creation for MAHAX Locker Migration + Bonus MAHA Distribution | `open` |
+| [#1](https://github.com/mahaxyz/timelocks/pull/1) | Added Timelock script for the Unstake & Withdraw OmnichainStaking Token on Base | `open` |
 
 </details>
 
@@ -84,58 +78,43 @@ Currently freelancing — building protocol infra, designing derivatives vaults,
 
 <br>
 
-**[zerolend/core-contracts-v1](https://github.com/zerolend/core-contracts-v1)**
+**[zerolend/core-contracts-v1](https://github.com/zerolend/core-contracts-v1)** &nbsp; ⭐ 3 · 6 forks
 
 | # | Title | Status |
 |---|-------|--------|
+| [#9](https://github.com/zerolend/core-contracts-v1/pull/9) | Hexagate Gator Pool  | `open` |
+| [#8](https://github.com/zerolend/core-contracts-v1/pull/8) | Pool Hypernative Firewall on Base. | `open` |
+| [#7](https://github.com/zerolend/core-contracts-v1/pull/7) | Zerolend Core Contract Liquid E-Mode | `open` |
+| [#6](https://github.com/zerolend/core-contracts-v1/pull/6) | Implement Safety Pool with Aave-style Umbrella Module Functionality | `open` |
 | [#5](https://github.com/zerolend/core-contracts-v1/pull/5) | Integrate Venn Protocol into ZeroLend Core Contracts | `open` |
-| [#6](https://github.com/zerolend/core-contracts-v1/pull/6) | Safety Pool with Aave-style Umbrella Module Functionality | `open` |
-| [#7](https://github.com/zerolend/core-contracts-v1/pull/7) | ZeroLend Core Contract Liquid E-Mode | `open` |
-| [#8](https://github.com/zerolend/core-contracts-v1/pull/8) | Pool Hypernative Firewall on Base | `open` |
-| [#9](https://github.com/zerolend/core-contracts-v1/pull/9) | Hexagate Gator Pool | `open` |
 
-**[zerolend/governance](https://github.com/zerolend/governance)**
+**[zerolend/governance](https://github.com/zerolend/governance)** &nbsp; ⭐ 15 · 13 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#52](https://github.com/zerolend/governance/pull/52) | Airdrop Vesting Schedule — 6-month cliff, 1-month linear | `open` |
-| [#54](https://github.com/zerolend/governance/pull/54) | Integrate veGovernance Voting Power with Omnichain Staking | `open` |
+| [#54](https://github.com/zerolend/governance/pull/54) | Integrate veGovernance Voting Power with Omnichain Staking Contracts | `open` |
+| [#52](https://github.com/zerolend/governance/pull/52) | Update Airdrop Vesting Schedule to 6-Month Cliff with 1-Month Linear Vesting | `open` |
 
-**[zerolend/oracles](https://github.com/zerolend/oracles)**
-
-| # | Title | Status |
-|---|-------|--------|
-| [#5](https://github.com/zerolend/oracles/pull/5) | DIA Aggregator Oracle Contract — superOETH-USD on Base | `open` |
-
-**[zerolend/timelocks](https://github.com/zerolend/timelocks)**
+**[zerolend/oracles](https://github.com/zerolend/oracles)** &nbsp; 4 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#1](https://github.com/zerolend/timelocks/pull/1) | Timelock script — Pool Implementation Upgrade on Base | `open` |
+| [#5](https://github.com/zerolend/oracles/pull/5) | Added DIA Aggregator Oracle Contract superOETH-USD on Base | `open` |
+
+**[zerolend/timelocks](https://github.com/zerolend/timelocks)** &nbsp; 3 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#1](https://github.com/zerolend/timelocks/pull/1) | Timelock script  Pool Implementation Upgrade on Base | `open` |
 
 </details>
 
 <details>
-<summary><strong>🔵 Digital Asset · DAML</strong> — stdlib docs + <code>damlc</code> build inference · <em>3 PRs</em></summary>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong> — Personal AI assistant: cron, planner, weekly review, install · <em>5 PRs</em></summary>
 
 <br>
 
-**[digital-asset/daml](https://github.com/digital-asset/daml)** — official DAML smart contract language
-
-| # | Title | Status |
-|---|-------|--------|
-| [#22943](https://github.com/digital-asset/daml/pull/22943) | feat(damlc): infer `--all` for `daml build` with only `multi-package.yaml` | `open` |
-| [#22953](https://github.com/digital-asset/daml/pull/22953) | docs(stdlib): clarify `DA.List.group` groups consecutive elements | `open` |
-| [#22955](https://github.com/digital-asset/daml/pull/22955) | docs(stdlib): fix `Template` constraint claim on internal typeclasses | `open` |
-
-</details>
-
-<details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong> — personal AI assistant: cron, planner, weekly review, install · <em>5 PRs</em></summary>
-
-<br>
-
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)**
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp; ⭐ 254 · 39 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -146,6 +125,36 @@ Currently freelancing — building protocol infra, designing derivatives vaults,
 | [#877](https://github.com/tinyhumansai/openhuman/pull/877) | fix(install.sh): dry-run exits 0 when platform asset missing | `merged` |
 
 </details>
+
+<details>
+<summary><strong>🔵 Digital Asset · DAML</strong> — stdlib docs + `damlc` build inference (official DAML smart contract language) · <em>3 PRs</em></summary>
+
+<br>
+
+**[digital-asset/daml](https://github.com/digital-asset/daml)** &nbsp; ⭐ 888 · 255 forks &nbsp; — &nbsp; Official DAML smart contract language
+
+| # | Title | Status |
+|---|-------|--------|
+| [#22955](https://github.com/digital-asset/daml/pull/22955) | docs(stdlib): fix `Template` constraint claim on internal typeclasses | `open` |
+| [#22953](https://github.com/digital-asset/daml/pull/22953) | docs(stdlib): clarify DA.List.group groups consecutive elements | `open` |
+| [#22943](https://github.com/digital-asset/daml/pull/22943) | feat(damlc): infer --all for daml build with only multi-package.yaml | `open` |
+
+</details>
+
+<details>
+<summary><strong>🟠 MahaDAO</strong> — DAO governance contracts · <em>1 PR</em></summary>
+
+<br>
+
+**[MahaDAO/governance-contracts](https://github.com/MahaDAO/governance-contracts)** &nbsp; 2 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#30](https://github.com/MahaDAO/governance-contracts/pull/30) | Implement Merkle Tree Creation for MAHAX Locker Migration and Bonus MAHA Distribution | `open` |
+
+</details>
+
+<!-- PROTOCOL_CONTRIBUTIONS:END -->
 
 <details>
 <summary><strong>⚡ Energi Core</strong> — EVM L1 — scalability and security infrastructure</summary>
@@ -160,13 +169,37 @@ Worked closely with the Energi Core EVM chain on scalability and security infras
 
 ## 🛠 Stack
 
-**Smart Contracts**
+**Languages**
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000?style=flat&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+
+**AI & LLM Tooling**
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white)
+![Anthropic SDK](https://img.shields.io/badge/Anthropic_SDK-191919?style=flat)
+![MCP](https://img.shields.io/badge/MCP-7C3AED?style=flat)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![Composio](https://img.shields.io/badge/Composio-000?style=flat)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
+
+**Smart Contracts**
 ![Foundry](https://img.shields.io/badge/Foundry-1C1C1C?style=flat)
 ![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=flat&logo=hardhat&logoColor=000)
 ![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=flat&logo=openzeppelin&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000?style=flat&logo=rust&logoColor=white)
 ![Anchor](https://img.shields.io/badge/Anchor-512BD4?style=flat)
+![Slither](https://img.shields.io/badge/Slither-000?style=flat)
+![Certora](https://img.shields.io/badge/Certora-FF6B35?style=flat)
+
+**Systems & Backend**
+![Tokio](https://img.shields.io/badge/Tokio-000?style=flat)
+![Axum](https://img.shields.io/badge/Axum-000?style=flat)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 
 **Protocols & Infra**
 ![LayerZero](https://img.shields.io/badge/LayerZero-000?style=flat)
@@ -179,12 +212,12 @@ Worked closely with the Energi Core EVM chain on scalability and security infras
 ![Subgraph](https://img.shields.io/badge/Subgraph-6747ED?style=flat)
 
 **Frontend**
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=000)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat&logo=nextdotjs&logoColor=white)
 ![ethers.js](https://img.shields.io/badge/ethers.js-2535A0?style=flat)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![viem](https://img.shields.io/badge/viem-FFC517?style=flat)
 
-**Chains:** Ethereum · Arbitrum · Polygon · BNB · opBNB · Solana
+**Chains:** Ethereum · Arbitrum · Polygon · BNB · opBNB · Base · Solana
 
 ---
 
