@@ -227,7 +227,3 @@ Worked with the Energi Core EVM chain on scalability and security infrastructure
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:riteishnikhoria@gmail.com)
 
 Open to freelance and contract work on protocol design, smart-contract engineering, and security audits.
-
----
-
-![Riteish's GitHub stats](https://github-readme-stats.vercel.app/api?username=obchain&show_icons=true&hide_border=true&theme=cobalt&include_all_commits=true&count_private=true)
