@@ -1,18 +1,18 @@
 # Hey, I'm Riteish 🧱
 
-> Full-stack engineer — DeFi protocols · AI agents · Rust systems · Go services.
+> Full-stack engineer building DeFi protocols, AI agents, and Rust systems.
 
 ---
 
-I build production systems across three stacks: **smart contracts** (Solidity), **AI agents and LLM tooling** (Python · Claude · MCP), and **performance-critical backends** (Rust · Go). I care about software that survives adversarial conditions — because the systems I ship handle real liquidity, real users, and real money.
+I work across three stacks: smart contracts in Solidity, AI agents and LLM tooling in Python with Claude and MCP, and performance-critical backends in Rust and Go. The systems I ship handle real liquidity, real users, and real money, so I write software that survives adversarial conditions.
 
-On the **DeFi side**, my flagship is **[MantissaFi](https://github.com/obchain/MantissaFi)** — a fully on-chain European options protocol that implements **Black-Scholes-Merton pricing entirely in Solidity**. At **[@mahaxyz](https://github.com/mahaxyz)**, I work on the core protocol: stablecoin mechanics, governance, and the Solana expansion. The core [contracts repo](https://github.com/mahaxyz/contracts) has **37+ stars** and active production deployments. I've built AMMs, perpetual DEXs, lending markets influenced by Uniswap V3 concentrated liquidity, and cross-chain governance with **LayerZero** and **Chainlink CCIP**.
+On the **DeFi side**, my flagship is **[MantissaFi](https://github.com/obchain/MantissaFi)**, a fully on-chain European options protocol that implements **Black-Scholes-Merton pricing entirely in Solidity**. At **[@mahaxyz](https://github.com/mahaxyz)** I work on the core protocol: stablecoin mechanics, governance, and the Solana expansion. The core [contracts repo](https://github.com/mahaxyz/contracts) has **37+ stars** and active production deployments. I have built AMMs, perpetual DEXs, lending markets influenced by Uniswap V3 concentrated liquidity, and cross-chain governance with **LayerZero** and **Chainlink CCIP**.
 
-On the **AI side**, I design on-chain agent frameworks ([agent-contracts](https://github.com/obchain/agent-contracts)) and contribute to LLM-native developer tooling at **[@tinyhumansai](https://github.com/tinyhumansai)** — planner sandboxes around composio meta-tools, ambient runtime injection into system prompts, and weekly-review aggregation pipelines. I work fluently with Claude/Anthropic SDKs, MCP servers, prompt evals, and agent orchestration.
+On the **AI side**, I design on-chain agent frameworks ([agent-contracts](https://github.com/obchain/agent-contracts)) and contribute to LLM-native developer tooling at **[@tinyhumansai](https://github.com/tinyhumansai)**: planner sandboxes around composio meta-tools, ambient runtime injection into system prompts, and weekly-review aggregation pipelines. I work fluently with Claude and Anthropic SDKs, MCP servers, prompt evaluations, and agent orchestration.
 
-On the **systems side**, I build in Rust — **[Charon](https://github.com/obchain/Charon)** is a multi-chain, flash-loan-backed liquidation bot that monitors under-collateralized DeFi positions and atomically liquidates via Aave + Venus + PancakeSwap. Concurrent scanners, Prometheus metrics, gas-aware profit gating, EIP-1559 nonce management. Go for backend services and infrastructure tooling.
+On the **systems side**, I build in Rust. **[Charon](https://github.com/obchain/Charon)** is a multi-chain flash-loan-backed liquidation bot that monitors under-collateralized DeFi positions and atomically liquidates them through Aave, Venus, and PancakeSwap. It uses concurrent scanners, Prometheus metrics, gas-aware profit gating, and EIP-1559 nonce management. I also use Go for backend services and infrastructure tooling.
 
-Currently freelancing — protocol design, smart-contract engineering, AI agent infra, and Rust systems for teams that need security-first execution.
+Currently freelancing on protocol design, smart-contract engineering, AI agent infrastructure, and Rust systems for teams that need security-first execution.
 
 ---
 
@@ -20,10 +20,10 @@ Currently freelancing — protocol design, smart-contract engineering, AI agent 
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| **[MantissaFi](https://github.com/obchain/MantissaFi)** | Fully on-chain European options — Black-Scholes-Merton pricing in Solidity | Solidity · Foundry |
+| **[MantissaFi](https://github.com/obchain/MantissaFi)** | Fully on-chain European options with Black-Scholes-Merton pricing in Solidity | Solidity · Foundry |
 | **[agent-contracts](https://github.com/obchain/agent-contracts)** | Smart contracts powering an AI Agent Framework | Solidity |
 | **[gmx-v2-lens](https://github.com/obchain/gmx-v2-lens)** | Market analytics aggregator for the GMX V2 perpetual DEX | Solidity |
-| **[Charon](https://github.com/obchain/Charon)** | Multi-chain, flash-loan-backed liquidation bot — atomic Aave + Venus + PancakeSwap flow | Rust · Foundry |
+| **[Charon](https://github.com/obchain/Charon)** | Multi-chain flash-loan-backed liquidation bot with atomic Aave, Venus, and PancakeSwap flow | Rust · Foundry |
 | **[streamed-cache-rust](https://github.com/obchain/streamed-cache-rust)** | High-performance streaming temperature cache | Rust · Tokio |
 | **[ferros-vault](https://github.com/obchain/ferros-vault)** | Institutional-grade tokenized USDC yield vault | Solidity · ERC-4626 |
 | **[xyz-bridge](https://github.com/obchain/xyz-bridge)** | Cross-chain bridge with relayer service | Solidity · TypeScript |
@@ -37,11 +37,11 @@ Currently freelancing — protocol design, smart-contract engineering, AI agent 
 <!-- PROTOCOL_CONTRIBUTIONS:START -->
 
 <details>
-<summary><strong>🟣 MahaXYZ</strong> — Core contributor · stablecoin mechanics, governance, cross-chain expansion · <em>15 PRs</em></summary>
+<summary><strong>🟣 MahaXYZ</strong>: Core contributor · stablecoin mechanics, governance, cross-chain expansion · <em>15 PRs</em></summary>
 
 <br>
 
-**[mahaxyz/contracts](https://github.com/mahaxyz/contracts)** &nbsp; ⭐ 37 · 8 forks &nbsp; — &nbsp; EVM core protocol
+**[mahaxyz/contracts](https://github.com/mahaxyz/contracts)** &nbsp;·&nbsp; ⭐ 37 · 8 forks &nbsp;·&nbsp; EVM core protocol
 
 | # | Title | Status |
 |---|-------|--------|
@@ -59,13 +59,13 @@ Currently freelancing — protocol design, smart-contract engineering, AI agent 
 | [#43](https://github.com/mahaxyz/contracts/pull/43) | Modify ZapAerodromePoolUSDC to Accept Any Token as Input via Odos | `merged` |
 | [#42](https://github.com/mahaxyz/contracts/pull/42) | Deployment Script for LockerToken and OmnichainStaking Contracts | `merged` |
 
-**[mahaxyz/solana-contracts](https://github.com/mahaxyz/solana-contracts)** &nbsp; 2 forks &nbsp; — &nbsp; Anchor / Rust
+**[mahaxyz/solana-contracts](https://github.com/mahaxyz/solana-contracts)** &nbsp;·&nbsp; 2 forks &nbsp;·&nbsp; Anchor / Rust
 
 | # | Title | Status |
 |---|-------|--------|
 | [#1](https://github.com/mahaxyz/solana-contracts/pull/1) | Solana Launchpad Contracts | `merged` |
 
-**[mahaxyz/timelocks](https://github.com/mahaxyz/timelocks)** &nbsp; 1 fork &nbsp; — &nbsp; Multi-chain timelock infrastructure
+**[mahaxyz/timelocks](https://github.com/mahaxyz/timelocks)** &nbsp;·&nbsp; 1 fork &nbsp;·&nbsp; Multi-chain timelock infrastructure
 
 | # | Title | Status |
 |---|-------|--------|
@@ -74,11 +74,11 @@ Currently freelancing — protocol design, smart-contract engineering, AI agent 
 </details>
 
 <details>
-<summary><strong>🟢 ZeroLend</strong> — Lending protocol · core, governance, oracles, timelocks · <em>9 PRs</em></summary>
+<summary><strong>🟢 ZeroLend</strong>: Lending protocol · core, governance, oracles, timelocks · <em>9 PRs</em></summary>
 
 <br>
 
-**[zerolend/core-contracts-v1](https://github.com/zerolend/core-contracts-v1)** &nbsp; ⭐ 3 · 6 forks
+**[zerolend/core-contracts-v1](https://github.com/zerolend/core-contracts-v1)** &nbsp;·&nbsp; ⭐ 3 · 6 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -88,20 +88,20 @@ Currently freelancing — protocol design, smart-contract engineering, AI agent 
 | [#6](https://github.com/zerolend/core-contracts-v1/pull/6) | Implement Safety Pool with Aave-style Umbrella Module Functionality | `open` |
 | [#5](https://github.com/zerolend/core-contracts-v1/pull/5) | Integrate Venn Protocol into ZeroLend Core Contracts | `open` |
 
-**[zerolend/governance](https://github.com/zerolend/governance)** &nbsp; ⭐ 15 · 13 forks
+**[zerolend/governance](https://github.com/zerolend/governance)** &nbsp;·&nbsp; ⭐ 15 · 13 forks
 
 | # | Title | Status |
 |---|-------|--------|
 | [#54](https://github.com/zerolend/governance/pull/54) | Integrate veGovernance Voting Power with Omnichain Staking Contracts | `open` |
 | [#52](https://github.com/zerolend/governance/pull/52) | Update Airdrop Vesting Schedule to 6-Month Cliff with 1-Month Linear Vesting | `open` |
 
-**[zerolend/oracles](https://github.com/zerolend/oracles)** &nbsp; 4 forks
+**[zerolend/oracles](https://github.com/zerolend/oracles)** &nbsp;·&nbsp; 4 forks
 
 | # | Title | Status |
 |---|-------|--------|
 | [#5](https://github.com/zerolend/oracles/pull/5) | Added DIA Aggregator Oracle Contract superOETH-USD on Base | `open` |
 
-**[zerolend/timelocks](https://github.com/zerolend/timelocks)** &nbsp; 3 forks
+**[zerolend/timelocks](https://github.com/zerolend/timelocks)** &nbsp;·&nbsp; 3 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -110,11 +110,11 @@ Currently freelancing — protocol design, smart-contract engineering, AI agent 
 </details>
 
 <details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong> — Personal AI assistant: cron, planner, weekly review, install · <em>5 PRs</em></summary>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>5 PRs</em></summary>
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp; ⭐ 254 · 39 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 254 · 39 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -127,11 +127,11 @@ Currently freelancing — protocol design, smart-contract engineering, AI agent 
 </details>
 
 <details>
-<summary><strong>🔵 Digital Asset · DAML</strong> — stdlib docs + `damlc` build inference (official DAML smart contract language) · <em>3 PRs</em></summary>
+<summary><strong>🔵 Digital Asset · DAML</strong>: stdlib docs + `damlc` build inference (official DAML smart contract language) · <em>3 PRs</em></summary>
 
 <br>
 
-**[digital-asset/daml](https://github.com/digital-asset/daml)** &nbsp; ⭐ 888 · 255 forks &nbsp; — &nbsp; Official DAML smart contract language
+**[digital-asset/daml](https://github.com/digital-asset/daml)** &nbsp;·&nbsp; ⭐ 888 · 255 forks &nbsp;·&nbsp; Official DAML smart contract language
 
 | # | Title | Status |
 |---|-------|--------|
@@ -142,11 +142,11 @@ Currently freelancing — protocol design, smart-contract engineering, AI agent 
 </details>
 
 <details>
-<summary><strong>🟠 MahaDAO</strong> — DAO governance contracts · <em>1 PR</em></summary>
+<summary><strong>🟠 MahaDAO</strong>: DAO governance contracts · <em>1 PR</em></summary>
 
 <br>
 
-**[MahaDAO/governance-contracts](https://github.com/MahaDAO/governance-contracts)** &nbsp; 2 forks
+**[MahaDAO/governance-contracts](https://github.com/MahaDAO/governance-contracts)** &nbsp;·&nbsp; 2 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -157,11 +157,11 @@ Currently freelancing — protocol design, smart-contract engineering, AI agent 
 <!-- PROTOCOL_CONTRIBUTIONS:END -->
 
 <details>
-<summary><strong>⚡ Energi Core</strong> — EVM L1 — scalability and security infrastructure</summary>
+<summary><strong>⚡ Energi Core</strong> · EVM L1 · scalability and security infrastructure</summary>
 
 <br>
 
-Worked closely with the Energi Core EVM chain on scalability and security infrastructure across the protocol.
+Worked with the Energi Core EVM chain on scalability and security infrastructure across the protocol.
 
 </details>
 
@@ -226,7 +226,7 @@ Worked closely with the Energi Core EVM chain on scalability and security infras
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Riteish29)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:riteishnikhoria@gmail.com)
 
-Open to freelance / contract work on protocol design, smart-contract development, and security-focused audits.
+Open to freelance and contract work on protocol design, smart-contract engineering, and security audits.
 
 ---
 

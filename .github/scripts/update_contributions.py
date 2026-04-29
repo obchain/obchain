@@ -100,7 +100,7 @@ def render_section(prs: list[dict[str, Any]]) -> str:
 
         summary = f"<strong>{emoji} {display}</strong>"
         if desc:
-            summary += f" — {desc}"
+            summary += f": {desc}"
         summary += f" · <em>{total} PR{'s' if total != 1 else ''}</em>"
 
         body: list[str] = []
@@ -114,9 +114,9 @@ def render_section(prs: list[dict[str, Any]]) -> str:
             if forks:
                 badges.append(f"{forks} fork{'s' if forks != 1 else ''}")
             if badges:
-                header += " &nbsp; " + " · ".join(badges)
+                header += " &nbsp;·&nbsp; " + " · ".join(badges)
             if note:
-                header += f" &nbsp; — &nbsp; {note}"
+                header += f" &nbsp;·&nbsp; {note}"
             body.append(header)
             body.append("")
             body.append("| # | Title | Status |")
