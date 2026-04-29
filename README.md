@@ -16,27 +16,145 @@ Currently freelancing — building protocol infra, designing derivatives vaults,
 
 ## 🔨 What I'm Building
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [**MantissaFi**](https://github.com/obchain/MantissaFi) | Fully on-chain European options protocol with Black-Scholes-Merton pricing in Solidity | Solidity · Foundry |
-| [**agent-contracts**](https://github.com/obchain/agent-contracts) | Smart contracts powering an AI Agent Framework — on-chain agent registries and execution | Solidity |
-| [**gmx-v2-lens**](https://github.com/obchain/gmx-v2-lens) | Market analytics aggregator for the GMX V2 perpetual DEX | Solidity |
-| [**Charon**](https://github.com/obchain/Charon) | Multi-chain, flash-loan-backed liquidation bot. Monitors under-collateralized DeFi positions and atomically liquidates | Rust |
-| [**ferros-vault**](https://github.com/obchain/ferros-vault) | Institutional-grade tokenized USDC yield vault on Ethereum Sepolia | Solidity · ERC-4626 |
-| [**CrossChain-Bridge**](https://github.com/obchain/CrossChain-Bridge) | Cross-chain asset bridge experiments | Solidity |
+| Project | What it does | Stack |
+| :--- | :--- | :--- |
+| **[MantissaFi](https://github.com/obchain/MantissaFi)** | Fully on-chain European options — Black-Scholes-Merton pricing in Solidity | Solidity · Foundry |
+| **[agent-contracts](https://github.com/obchain/agent-contracts)** | Smart contracts powering an AI Agent Framework | Solidity |
+| **[gmx-v2-lens](https://github.com/obchain/gmx-v2-lens)** | Market analytics aggregator for the GMX V2 perpetual DEX | Solidity |
+| **[Charon](https://github.com/obchain/Charon)** | Multi-chain, flash-loan-backed liquidation bot — atomic Aave + Venus + PancakeSwap flow | Rust · Foundry |
+| **[ferros-vault](https://github.com/obchain/ferros-vault)** | Institutional-grade tokenized USDC yield vault | Solidity · ERC-4626 |
+| **[CrossChain-Bridge](https://github.com/obchain/CrossChain-Bridge)** | Cross-chain asset bridge experiments | Solidity |
+
+---
 
 ## 🌐 Protocol Contributions
 
-- **[MahaXYZ](https://github.com/mahaxyz)** — Core contributor to the maha.xyz protocol. Working on stablecoin mechanics, governance, and cross-chain expansion.
-  - [contracts](https://github.com/mahaxyz/contracts) ⭐ 37 · 8 forks — EVM core
-  - [solana-contracts](https://github.com/mahaxyz/solana-contracts) — Anchor / Rust
-  - [timelocks](https://github.com/mahaxyz/timelocks) — multi-chain timelock infrastructure
-- **[MahaDAO](https://github.com/MahaDAO)** — [governance-contracts](https://github.com/MahaDAO/governance-contracts) — DAO governance contributions.
-- **[ZeroLend](https://github.com/zerolend)** — Lending protocol contributions across the stack:
-  - [core-contracts-v1](https://github.com/zerolend/core-contracts-v1) · [governance](https://github.com/zerolend/governance) · [oracles](https://github.com/zerolend/oracles) · [timelocks](https://github.com/zerolend/timelocks)
-- **[Digital Asset · DAML](https://github.com/digital-asset/daml)** — stdlib documentation fixes and `damlc` build inference improvements.
-- **[TinyHumansAI · OpenHuman](https://github.com/tinyhumansai/openhuman)** — Personal AI assistant — cron routing, planner sandboxing, weekly review pipeline, install script fixes.
-- **Energi Core** — EVM L1 — scalability and security infrastructure work.
+<details>
+<summary><strong>🟣 MahaXYZ</strong> — Core contributor · stablecoin mechanics, governance, cross-chain expansion · <em>15 PRs</em></summary>
+
+<br>
+
+**[mahaxyz/contracts](https://github.com/mahaxyz/contracts)** &nbsp; ⭐ 37 · 8 forks &nbsp; — &nbsp; EVM core protocol
+
+| # | Title | Status |
+|---|-------|--------|
+| [#42](https://github.com/mahaxyz/contracts/pull/42) | Deployment Script for LockerToken and OmnichainStaking Contracts | `merged` |
+| [#43](https://github.com/mahaxyz/contracts/pull/43) | Modify ZapAerodromePoolUSDC to Accept Any Token via Odos | `merged` |
+| [#44](https://github.com/mahaxyz/contracts/pull/44) | Add PSM Contract with ERC4626 Support and Yield Collection | `merged` |
+| [#45](https://github.com/mahaxyz/contracts/pull/45) | MAHA Protocol Revenue Collector — USDe→USDC, Buyback & Burn | `merged` |
+| [#46](https://github.com/mahaxyz/contracts/pull/46) | Multi-token support in ZapAerodromePoolUSDC via Odos API | `merged` |
+| [#47](https://github.com/mahaxyz/contracts/pull/47) | Add MahaUIHelper Contract for User Staking and Locking Info | `open` |
+| [#48](https://github.com/mahaxyz/contracts/pull/48) | MAHA Protocol Revenue Collector (WIP iteration) | `open` |
+| [#49](https://github.com/mahaxyz/contracts/pull/49) | Multi-token ZapAerodromePoolUSDC fixes | `open` |
+| [#54](https://github.com/mahaxyz/contracts/pull/54) | User Migration with Merkle Tree + Bonus System for MAHA Locker | `open` |
+| [#59](https://github.com/mahaxyz/contracts/pull/59) | Deployment of MigratorContract & BuyBackBurn MAHA on Base | `open` |
+| [#70](https://github.com/mahaxyz/contracts/pull/70) | ERC-4626 vault for MAHA accepting USDC as collateral | `open` |
+| [#71](https://github.com/mahaxyz/contracts/pull/71) | Deployment for MahaUIHelper | `open` |
+| [#72](https://github.com/mahaxyz/contracts/pull/72) | Unstake & Withdraw on OmnichainStaking Token contract on Base | `open` |
+
+**[mahaxyz/solana-contracts](https://github.com/mahaxyz/solana-contracts)** &nbsp; — &nbsp; Anchor / Rust
+
+| # | Title | Status |
+|---|-------|--------|
+| [#1](https://github.com/mahaxyz/solana-contracts/pull/1) | Solana Launchpad Contracts | `merged` |
+
+**[mahaxyz/timelocks](https://github.com/mahaxyz/timelocks)** &nbsp; — &nbsp; Multi-chain timelock infrastructure
+
+| # | Title | Status |
+|---|-------|--------|
+| [#1](https://github.com/mahaxyz/timelocks/pull/1) | Timelock script for Unstake & Withdraw OmnichainStaking on Base | `open` |
+
+</details>
+
+<details>
+<summary><strong>🟠 MahaDAO</strong> — DAO governance contracts · <em>1 PR</em></summary>
+
+<br>
+
+**[MahaDAO/governance-contracts](https://github.com/MahaDAO/governance-contracts)**
+
+| # | Title | Status |
+|---|-------|--------|
+| [#30](https://github.com/MahaDAO/governance-contracts/pull/30) | Merkle Tree Creation for MAHAX Locker Migration + Bonus MAHA Distribution | `open` |
+
+</details>
+
+<details>
+<summary><strong>🟢 ZeroLend</strong> — Lending protocol · core, governance, oracles, timelocks · <em>9 PRs</em></summary>
+
+<br>
+
+**[zerolend/core-contracts-v1](https://github.com/zerolend/core-contracts-v1)**
+
+| # | Title | Status |
+|---|-------|--------|
+| [#5](https://github.com/zerolend/core-contracts-v1/pull/5) | Integrate Venn Protocol into ZeroLend Core Contracts | `open` |
+| [#6](https://github.com/zerolend/core-contracts-v1/pull/6) | Safety Pool with Aave-style Umbrella Module Functionality | `open` |
+| [#7](https://github.com/zerolend/core-contracts-v1/pull/7) | ZeroLend Core Contract Liquid E-Mode | `open` |
+| [#8](https://github.com/zerolend/core-contracts-v1/pull/8) | Pool Hypernative Firewall on Base | `open` |
+| [#9](https://github.com/zerolend/core-contracts-v1/pull/9) | Hexagate Gator Pool | `open` |
+
+**[zerolend/governance](https://github.com/zerolend/governance)**
+
+| # | Title | Status |
+|---|-------|--------|
+| [#52](https://github.com/zerolend/governance/pull/52) | Airdrop Vesting Schedule — 6-month cliff, 1-month linear | `open` |
+| [#54](https://github.com/zerolend/governance/pull/54) | Integrate veGovernance Voting Power with Omnichain Staking | `open` |
+
+**[zerolend/oracles](https://github.com/zerolend/oracles)**
+
+| # | Title | Status |
+|---|-------|--------|
+| [#5](https://github.com/zerolend/oracles/pull/5) | DIA Aggregator Oracle Contract — superOETH-USD on Base | `open` |
+
+**[zerolend/timelocks](https://github.com/zerolend/timelocks)**
+
+| # | Title | Status |
+|---|-------|--------|
+| [#1](https://github.com/zerolend/timelocks/pull/1) | Timelock script — Pool Implementation Upgrade on Base | `open` |
+
+</details>
+
+<details>
+<summary><strong>🔵 Digital Asset · DAML</strong> — stdlib docs + <code>damlc</code> build inference · <em>3 PRs</em></summary>
+
+<br>
+
+**[digital-asset/daml](https://github.com/digital-asset/daml)** — official DAML smart contract language
+
+| # | Title | Status |
+|---|-------|--------|
+| [#22943](https://github.com/digital-asset/daml/pull/22943) | feat(damlc): infer `--all` for `daml build` with only `multi-package.yaml` | `open` |
+| [#22953](https://github.com/digital-asset/daml/pull/22953) | docs(stdlib): clarify `DA.List.group` groups consecutive elements | `open` |
+| [#22955](https://github.com/digital-asset/daml/pull/22955) | docs(stdlib): fix `Template` constraint claim on internal typeclasses | `open` |
+
+</details>
+
+<details>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong> — personal AI assistant: cron, planner, weekly review, install · <em>5 PRs</em></summary>
+
+<br>
+
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)**
+
+| # | Title | Status |
+|---|-------|--------|
+| [#1026](https://github.com/tinyhumansai/openhuman/pull/1026) | fix(cron): route reminders from origin channel, gate announce by allowed_users | `merged` |
+| [#959](https://github.com/tinyhumansai/openhuman/pull/959) | feat(morning_briefing): inject ambient runtime + user + datetime into system prompt | `merged` |
+| [#914](https://github.com/tinyhumansai/openhuman/pull/914) | ci(weekly-review): aggregator + workflow + runbook for #459 | `merged` |
+| [#904](https://github.com/tinyhumansai/openhuman/pull/904) | feat(planner): read-only sandbox gate on composio meta-tools | `merged` |
+| [#877](https://github.com/tinyhumansai/openhuman/pull/877) | fix(install.sh): dry-run exits 0 when platform asset missing | `merged` |
+
+</details>
+
+<details>
+<summary><strong>⚡ Energi Core</strong> — EVM L1 — scalability and security infrastructure</summary>
+
+<br>
+
+Worked closely with the Energi Core EVM chain on scalability and security infrastructure across the protocol.
+
+</details>
 
 ---
 
@@ -58,7 +176,7 @@ Currently freelancing — building protocol infra, designing derivatives vaults,
 ![Uniswap](https://img.shields.io/badge/Uniswap-FF007A?style=flat&logo=uniswap&logoColor=white)
 ![Pyth](https://img.shields.io/badge/Pyth-7C3AED?style=flat)
 ![Tenderly](https://img.shields.io/badge/Tenderly-7B3FE4?style=flat)
-![The%20Graph](https://img.shields.io/badge/Subgraph-6747ED?style=flat)
+![Subgraph](https://img.shields.io/badge/Subgraph-6747ED?style=flat)
 
 **Frontend**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
