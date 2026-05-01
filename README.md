@@ -114,12 +114,12 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 262 · 40 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 280 · 40 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#1047](https://github.com/tinyhumansai/openhuman/pull/1047) | feat(agent): orchestrator dedicated worker threads via spawn_subagent dedicated_thread flag | `open` |
-| [#1042](https://github.com/tinyhumansai/openhuman/pull/1042) | docs(config): finish #933 — kill BACKEND_URL stragglers + document runtime precedence | `open` |
+| [#1047](https://github.com/tinyhumansai/openhuman/pull/1047) | feat(agent): orchestrator dedicated worker threads via spawn_subagent dedicated_thread flag | `merged` |
+| [#1042](https://github.com/tinyhumansai/openhuman/pull/1042) | docs(config): finish #933 — kill BACKEND_URL stragglers + document runtime precedence | `merged` |
 | [#1026](https://github.com/tinyhumansai/openhuman/pull/1026) | fix(cron): route reminders from origin channel, gate announce by allowed_users | `merged` |
 | [#959](https://github.com/tinyhumansai/openhuman/pull/959) | feat(morning_briefing): inject ambient runtime + user + datetime into system prompt | `merged` |
 | [#914](https://github.com/tinyhumansai/openhuman/pull/914) | ci(weekly-review): aggregator + workflow + runbook for #459 | `merged` |
