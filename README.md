@@ -114,7 +114,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 282 · 41 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 287 · 42 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -140,7 +140,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | [#22963](https://github.com/digital-asset/daml/pull/22963) | docs: document `hiding` and selective import forms | `open` |
 | [#22955](https://github.com/digital-asset/daml/pull/22955) | docs(stdlib): fix `Template` constraint claim on internal typeclasses | `closed` |
 | [#22953](https://github.com/digital-asset/daml/pull/22953) | docs(stdlib): clarify DA.List.group groups consecutive elements | `open` |
-| [#22943](https://github.com/digital-asset/daml/pull/22943) | feat(damlc): infer --all for daml build with only multi-package.yaml | `open` |
+| [#22943](https://github.com/digital-asset/daml/pull/22943) | feat(damlc): infer --all for daml build with only multi-package.yaml | `merged` |
 
 </details>
 
