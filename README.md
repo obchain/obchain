@@ -74,6 +74,27 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>9 PRs</em></summary>
+
+<br>
+
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 308 · 47 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#1181](https://github.com/tinyhumansai/openhuman/pull/1181) | chore(tauri-shell): retire embedded Gmail webview-account flow | `open` |
+| [#1177](https://github.com/tinyhumansai/openhuman/pull/1177) | feat(learning): privilege explicit user reflections in agent context | `open` |
+| [#1047](https://github.com/tinyhumansai/openhuman/pull/1047) | feat(agent): orchestrator dedicated worker threads via spawn_subagent dedicated_thread flag | `merged` |
+| [#1042](https://github.com/tinyhumansai/openhuman/pull/1042) | docs(config): finish #933 — kill BACKEND_URL stragglers + document runtime precedence | `merged` |
+| [#1026](https://github.com/tinyhumansai/openhuman/pull/1026) | fix(cron): route reminders from origin channel, gate announce by allowed_users | `merged` |
+| [#959](https://github.com/tinyhumansai/openhuman/pull/959) | feat(morning_briefing): inject ambient runtime + user + datetime into system prompt | `merged` |
+| [#914](https://github.com/tinyhumansai/openhuman/pull/914) | ci(weekly-review): aggregator + workflow + runbook for #459 | `merged` |
+| [#904](https://github.com/tinyhumansai/openhuman/pull/904) | feat(planner): read-only sandbox gate on composio meta-tools | `merged` |
+| [#877](https://github.com/tinyhumansai/openhuman/pull/877) | fix(install.sh): dry-run exits 0 when platform asset missing | `merged` |
+
+</details>
+
+<details>
 <summary><strong>🟢 ZeroLend</strong>: Lending protocol · core, governance, oracles, timelocks · <em>9 PRs</em></summary>
 
 <br>
@@ -106,25 +127,6 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | # | Title | Status |
 |---|-------|--------|
 | [#1](https://github.com/zerolend/timelocks/pull/1) | Timelock script  Pool Implementation Upgrade on Base | `open` |
-
-</details>
-
-<details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>7 PRs</em></summary>
-
-<br>
-
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 301 · 45 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#1047](https://github.com/tinyhumansai/openhuman/pull/1047) | feat(agent): orchestrator dedicated worker threads via spawn_subagent dedicated_thread flag | `merged` |
-| [#1042](https://github.com/tinyhumansai/openhuman/pull/1042) | docs(config): finish #933 — kill BACKEND_URL stragglers + document runtime precedence | `merged` |
-| [#1026](https://github.com/tinyhumansai/openhuman/pull/1026) | fix(cron): route reminders from origin channel, gate announce by allowed_users | `merged` |
-| [#959](https://github.com/tinyhumansai/openhuman/pull/959) | feat(morning_briefing): inject ambient runtime + user + datetime into system prompt | `merged` |
-| [#914](https://github.com/tinyhumansai/openhuman/pull/914) | ci(weekly-review): aggregator + workflow + runbook for #459 | `merged` |
-| [#904](https://github.com/tinyhumansai/openhuman/pull/904) | feat(planner): read-only sandbox gate on composio meta-tools | `merged` |
-| [#877](https://github.com/tinyhumansai/openhuman/pull/877) | fix(install.sh): dry-run exits 0 when platform asset missing | `merged` |
 
 </details>
 
