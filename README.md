@@ -78,11 +78,11 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 308 · 47 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 317 · 48 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#1181](https://github.com/tinyhumansai/openhuman/pull/1181) | chore(tauri-shell): retire embedded Gmail webview-account flow | `open` |
+| [#1181](https://github.com/tinyhumansai/openhuman/pull/1181) | chore(tauri-shell): retire embedded Gmail webview-account flow | `merged` |
 | [#1177](https://github.com/tinyhumansai/openhuman/pull/1177) | feat(learning): privilege explicit user reflections in agent context | `open` |
 | [#1047](https://github.com/tinyhumansai/openhuman/pull/1047) | feat(agent): orchestrator dedicated worker threads via spawn_subagent dedicated_thread flag | `merged` |
 | [#1042](https://github.com/tinyhumansai/openhuman/pull/1042) | docs(config): finish #933 — kill BACKEND_URL stragglers + document runtime precedence | `merged` |
