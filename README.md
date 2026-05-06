@@ -78,13 +78,13 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 336 · 48 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 343 · 50 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#1209](https://github.com/tinyhumansai/openhuman/pull/1209) | fix(channels): managed-DM credentials surface as connected to chat | `open` |
+| [#1209](https://github.com/tinyhumansai/openhuman/pull/1209) | fix(channels): managed-DM credentials surface as connected to chat | `merged` |
 | [#1181](https://github.com/tinyhumansai/openhuman/pull/1181) | chore(tauri-shell): retire embedded Gmail webview-account flow | `merged` |
-| [#1177](https://github.com/tinyhumansai/openhuman/pull/1177) | feat(learning): privilege explicit user reflections in agent context | `open` |
+| [#1177](https://github.com/tinyhumansai/openhuman/pull/1177) | feat(learning): privilege explicit user reflections in agent context | `merged` |
 | [#1047](https://github.com/tinyhumansai/openhuman/pull/1047) | feat(agent): orchestrator dedicated worker threads via spawn_subagent dedicated_thread flag | `merged` |
 | [#1042](https://github.com/tinyhumansai/openhuman/pull/1042) | docs(config): finish #933 — kill BACKEND_URL stragglers + document runtime precedence | `merged` |
 | [#1026](https://github.com/tinyhumansai/openhuman/pull/1026) | fix(cron): route reminders from origin channel, gate announce by allowed_users | `merged` |
