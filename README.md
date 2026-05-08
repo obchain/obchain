@@ -74,14 +74,17 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>11 PRs</em></summary>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>14 PRs</em></summary>
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 426 · 52 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 428 · 52 forks
 
 | # | Title | Status |
 |---|-------|--------|
+| [#1367](https://github.com/tinyhumansai/openhuman/pull/1367) | fix(agent/triage): tiered cloud → retry → local → defer fallback | `open` |
+| [#1363](https://github.com/tinyhumansai/openhuman/pull/1363) | fix(memory_tree/jobs): scrub credentials from worker error logs | `open` |
+| [#1362](https://github.com/tinyhumansai/openhuman/pull/1362) | test(proxy): drop env-leaking runtime_proxy assertion in clear test | `open` |
 | [#1298](https://github.com/tinyhumansai/openhuman/pull/1298) | fix(stt): rewrite stale-sidecar voice error + e2e registration guard | `merged` |
 | [#1209](https://github.com/tinyhumansai/openhuman/pull/1209) | fix(channels): managed-DM credentials surface as connected to chat | `merged` |
 | [#1181](https://github.com/tinyhumansai/openhuman/pull/1181) | chore(tauri-shell): retire embedded Gmail webview-account flow | `merged` |
@@ -159,6 +162,19 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | # | Title | Status |
 |---|-------|--------|
 | [#30](https://github.com/MahaDAO/governance-contracts/pull/30) | Implement Merkle Tree Creation for MAHAX Locker Migration and Bonus MAHA Distribution | `open` |
+
+</details>
+
+<details>
+<summary><strong>⚪ NethermindEth</strong> · <em>1 PR</em></summary>
+
+<br>
+
+**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1549 · 689 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#11523](https://github.com/NethermindEth/nethermind/pull/11523) | feat(config): show non-default values on startup | `open` |
 
 </details>
 
