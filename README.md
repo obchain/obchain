@@ -78,11 +78,11 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 416 · 52 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 426 · 52 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#1298](https://github.com/tinyhumansai/openhuman/pull/1298) | fix(stt): rewrite stale-sidecar voice error + e2e registration guard | `open` |
+| [#1298](https://github.com/tinyhumansai/openhuman/pull/1298) | fix(stt): rewrite stale-sidecar voice error + e2e registration guard | `merged` |
 | [#1209](https://github.com/tinyhumansai/openhuman/pull/1209) | fix(channels): managed-DM credentials surface as connected to chat | `merged` |
 | [#1181](https://github.com/tinyhumansai/openhuman/pull/1181) | chore(tauri-shell): retire embedded Gmail webview-account flow | `merged` |
 | [#1177](https://github.com/tinyhumansai/openhuman/pull/1177) | feat(learning): privilege explicit user reflections in agent context | `merged` |
@@ -137,7 +137,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[digital-asset/daml](https://github.com/digital-asset/daml)** &nbsp;·&nbsp; ⭐ 891 · 254 forks &nbsp;·&nbsp; Official DAML smart contract language
+**[digital-asset/daml](https://github.com/digital-asset/daml)** &nbsp;·&nbsp; ⭐ 891 · 255 forks &nbsp;·&nbsp; Official DAML smart contract language
 
 | # | Title | Status |
 |---|-------|--------|
