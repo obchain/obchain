@@ -78,13 +78,13 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 428 · 52 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 439 · 52 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#1367](https://github.com/tinyhumansai/openhuman/pull/1367) | fix(agent/triage): tiered cloud → retry → local → defer fallback | `open` |
-| [#1363](https://github.com/tinyhumansai/openhuman/pull/1363) | fix(memory_tree/jobs): scrub credentials from worker error logs | `open` |
-| [#1362](https://github.com/tinyhumansai/openhuman/pull/1362) | test(proxy): drop env-leaking runtime_proxy assertion in clear test | `open` |
+| [#1367](https://github.com/tinyhumansai/openhuman/pull/1367) | fix(agent/triage): tiered cloud → retry → local → defer fallback | `merged` |
+| [#1363](https://github.com/tinyhumansai/openhuman/pull/1363) | fix(memory_tree/jobs): scrub credentials from worker error logs | `merged` |
+| [#1362](https://github.com/tinyhumansai/openhuman/pull/1362) | test(proxy): drop env-leaking runtime_proxy assertion in clear test | `merged` |
 | [#1298](https://github.com/tinyhumansai/openhuman/pull/1298) | fix(stt): rewrite stale-sidecar voice error + e2e registration guard | `merged` |
 | [#1209](https://github.com/tinyhumansai/openhuman/pull/1209) | fix(channels): managed-DM credentials surface as connected to chat | `merged` |
 | [#1181](https://github.com/tinyhumansai/openhuman/pull/1181) | chore(tauri-shell): retire embedded Gmail webview-account flow | `merged` |
@@ -170,7 +170,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1549 · 689 forks
+**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1548 · 689 forks
 
 | # | Title | Status |
 |---|-------|--------|
