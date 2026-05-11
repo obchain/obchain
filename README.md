@@ -37,6 +37,36 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 <!-- PROTOCOL_CONTRIBUTIONS:START -->
 
 <details>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>18 PRs</em></summary>
+
+<br>
+
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 1126 · 155 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#1488](https://github.com/tinyhumansai/openhuman/pull/1488) | feat(orchestrator): collapse per-integration delegation into one tool (#1335) | `open` |
+| [#1483](https://github.com/tinyhumansai/openhuman/pull/1483) | feat(human): toggle voice recording with spacebar (#1471) | `open` |
+| [#1474](https://github.com/tinyhumansai/openhuman/pull/1474) | perf(composio/gmail): cut redundant fetches on incremental sync (#1404) | `open` |
+| [#1473](https://github.com/tinyhumansai/openhuman/pull/1473) | feat(orchestrator): expose update_check + update_apply tools (#1435) | `open` |
+| [#1367](https://github.com/tinyhumansai/openhuman/pull/1367) | fix(agent/triage): tiered cloud → retry → local → defer fallback | `merged` |
+| [#1363](https://github.com/tinyhumansai/openhuman/pull/1363) | fix(memory_tree/jobs): scrub credentials from worker error logs | `merged` |
+| [#1362](https://github.com/tinyhumansai/openhuman/pull/1362) | test(proxy): drop env-leaking runtime_proxy assertion in clear test | `merged` |
+| [#1298](https://github.com/tinyhumansai/openhuman/pull/1298) | fix(stt): rewrite stale-sidecar voice error + e2e registration guard | `merged` |
+| [#1209](https://github.com/tinyhumansai/openhuman/pull/1209) | fix(channels): managed-DM credentials surface as connected to chat | `merged` |
+| [#1181](https://github.com/tinyhumansai/openhuman/pull/1181) | chore(tauri-shell): retire embedded Gmail webview-account flow | `merged` |
+| [#1177](https://github.com/tinyhumansai/openhuman/pull/1177) | feat(learning): privilege explicit user reflections in agent context | `merged` |
+| [#1047](https://github.com/tinyhumansai/openhuman/pull/1047) | feat(agent): orchestrator dedicated worker threads via spawn_subagent dedicated_thread flag | `merged` |
+| [#1042](https://github.com/tinyhumansai/openhuman/pull/1042) | docs(config): finish #933 — kill BACKEND_URL stragglers + document runtime precedence | `merged` |
+| [#1026](https://github.com/tinyhumansai/openhuman/pull/1026) | fix(cron): route reminders from origin channel, gate announce by allowed_users | `merged` |
+| [#959](https://github.com/tinyhumansai/openhuman/pull/959) | feat(morning_briefing): inject ambient runtime + user + datetime into system prompt | `merged` |
+| [#914](https://github.com/tinyhumansai/openhuman/pull/914) | ci(weekly-review): aggregator + workflow + runbook for #459 | `merged` |
+| [#904](https://github.com/tinyhumansai/openhuman/pull/904) | feat(planner): read-only sandbox gate on composio meta-tools | `merged` |
+| [#877](https://github.com/tinyhumansai/openhuman/pull/877) | fix(install.sh): dry-run exits 0 when platform asset missing | `merged` |
+
+</details>
+
+<details>
 <summary><strong>🟣 MahaXYZ</strong>: Core contributor · stablecoin mechanics, governance, cross-chain expansion · <em>15 PRs</em></summary>
 
 <br>
@@ -70,32 +100,6 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | # | Title | Status |
 |---|-------|--------|
 | [#1](https://github.com/mahaxyz/timelocks/pull/1) | Added Timelock script for the Unstake & Withdraw OmnichainStaking Token on Base | `open` |
-
-</details>
-
-<details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>14 PRs</em></summary>
-
-<br>
-
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 860 · 126 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#1367](https://github.com/tinyhumansai/openhuman/pull/1367) | fix(agent/triage): tiered cloud → retry → local → defer fallback | `merged` |
-| [#1363](https://github.com/tinyhumansai/openhuman/pull/1363) | fix(memory_tree/jobs): scrub credentials from worker error logs | `merged` |
-| [#1362](https://github.com/tinyhumansai/openhuman/pull/1362) | test(proxy): drop env-leaking runtime_proxy assertion in clear test | `merged` |
-| [#1298](https://github.com/tinyhumansai/openhuman/pull/1298) | fix(stt): rewrite stale-sidecar voice error + e2e registration guard | `merged` |
-| [#1209](https://github.com/tinyhumansai/openhuman/pull/1209) | fix(channels): managed-DM credentials surface as connected to chat | `merged` |
-| [#1181](https://github.com/tinyhumansai/openhuman/pull/1181) | chore(tauri-shell): retire embedded Gmail webview-account flow | `merged` |
-| [#1177](https://github.com/tinyhumansai/openhuman/pull/1177) | feat(learning): privilege explicit user reflections in agent context | `merged` |
-| [#1047](https://github.com/tinyhumansai/openhuman/pull/1047) | feat(agent): orchestrator dedicated worker threads via spawn_subagent dedicated_thread flag | `merged` |
-| [#1042](https://github.com/tinyhumansai/openhuman/pull/1042) | docs(config): finish #933 — kill BACKEND_URL stragglers + document runtime precedence | `merged` |
-| [#1026](https://github.com/tinyhumansai/openhuman/pull/1026) | fix(cron): route reminders from origin channel, gate announce by allowed_users | `merged` |
-| [#959](https://github.com/tinyhumansai/openhuman/pull/959) | feat(morning_briefing): inject ambient runtime + user + datetime into system prompt | `merged` |
-| [#914](https://github.com/tinyhumansai/openhuman/pull/914) | ci(weekly-review): aggregator + workflow + runbook for #459 | `merged` |
-| [#904](https://github.com/tinyhumansai/openhuman/pull/904) | feat(planner): read-only sandbox gate on composio meta-tools | `merged` |
-| [#877](https://github.com/tinyhumansai/openhuman/pull/877) | fix(install.sh): dry-run exits 0 when platform asset missing | `merged` |
 
 </details>
 
@@ -153,6 +157,33 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
+<summary><strong>⚪ NethermindEth</strong> · <em>2 PRs</em></summary>
+
+<br>
+
+**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1549 · 689 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#11553](https://github.com/NethermindEth/nethermind/pull/11553) | feat(chainspec): support shanghai/cancun/prague/osaka hardfork labels | `open` |
+| [#11523](https://github.com/NethermindEth/nethermind/pull/11523) | feat(config): show non-default values on startup | `open` |
+
+</details>
+
+<details>
+<summary><strong>⚪ ag2ai</strong> · <em>1 PR</em></summary>
+
+<br>
+
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4532 · 622 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#2800](https://github.com/ag2ai/ag2/pull/2800) | fix(beta/policies): pair tool calls/results after history trim | `merged` |
+
+</details>
+
+<details>
 <summary><strong>🟠 MahaDAO</strong>: DAO governance contracts · <em>1 PR</em></summary>
 
 <br>
@@ -162,19 +193,6 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | # | Title | Status |
 |---|-------|--------|
 | [#30](https://github.com/MahaDAO/governance-contracts/pull/30) | Implement Merkle Tree Creation for MAHAX Locker Migration and Bonus MAHA Distribution | `open` |
-
-</details>
-
-<details>
-<summary><strong>⚪ NethermindEth</strong> · <em>1 PR</em></summary>
-
-<br>
-
-**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1548 · 689 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#11523](https://github.com/NethermindEth/nethermind/pull/11523) | feat(config): show non-default values on startup | `open` |
 
 </details>
 
