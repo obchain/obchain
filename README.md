@@ -37,14 +37,15 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 <!-- PROTOCOL_CONTRIBUTIONS:START -->
 
 <details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>18 PRs</em></summary>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>19 PRs</em></summary>
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 1623 · 189 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 2225 · 227 forks
 
 | # | Title | Status |
 |---|-------|--------|
+| [#1536](https://github.com/tinyhumansai/openhuman/pull/1536) | fix(accounts): reset transient webview status on rehydrate | `open` |
 | [#1488](https://github.com/tinyhumansai/openhuman/pull/1488) | feat(orchestrator): collapse per-integration delegation into one tool (#1335) | `open` |
 | [#1483](https://github.com/tinyhumansai/openhuman/pull/1483) | feat(human): toggle voice recording with spacebar (#1471) | `merged` |
 | [#1474](https://github.com/tinyhumansai/openhuman/pull/1474) | perf(composio/gmail): cut redundant fetches on incremental sync (#1404) | `open` |
@@ -157,29 +158,32 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>⚪ NethermindEth</strong> · <em>2 PRs</em></summary>
+<summary><strong>⚪ ag2ai</strong> · <em>3 PRs</em></summary>
 
 <br>
 
-**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1549 · 690 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4536 · 622 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#11553](https://github.com/NethermindEth/nethermind/pull/11553) | feat(chainspec): support shanghai/cancun/prague/osaka hardfork labels | `open` |
-| [#11523](https://github.com/NethermindEth/nethermind/pull/11523) | feat(config): show non-default values on startup | `open` |
+| [#2807](https://github.com/ag2ai/ag2/pull/2807) | fix(fast_depends): keep positional args out of **kwargs when passed by name | `open` |
+| [#2806](https://github.com/ag2ai/ag2/pull/2806) | fix(interop/langchain): use arun for async langchain tools | `open` |
+| [#2800](https://github.com/ag2ai/ag2/pull/2800) | fix(beta/policies): pair tool calls/results after history trim | `merged` |
 
 </details>
 
 <details>
-<summary><strong>⚪ ag2ai</strong> · <em>1 PR</em></summary>
+<summary><strong>⚪ NethermindEth</strong> · <em>3 PRs</em></summary>
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4534 · 622 forks
+**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1550 · 690 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#2800](https://github.com/ag2ai/ag2/pull/2800) | fix(beta/policies): pair tool calls/results after history trim | `merged` |
+| [#11570](https://github.com/NethermindEth/nethermind/pull/11570) | feat(rpc): expose debug_getFirstFullStateBlock (#1999) | `closed` |
+| [#11553](https://github.com/NethermindEth/nethermind/pull/11553) | feat(chainspec): support shanghai/cancun/prague/osaka hardfork labels | `open` |
+| [#11523](https://github.com/NethermindEth/nethermind/pull/11523) | feat(config): show non-default values on startup | `merged` |
 
 </details>
 
