@@ -41,14 +41,14 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 1126 · 155 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 1623 · 189 forks
 
 | # | Title | Status |
 |---|-------|--------|
 | [#1488](https://github.com/tinyhumansai/openhuman/pull/1488) | feat(orchestrator): collapse per-integration delegation into one tool (#1335) | `open` |
-| [#1483](https://github.com/tinyhumansai/openhuman/pull/1483) | feat(human): toggle voice recording with spacebar (#1471) | `open` |
+| [#1483](https://github.com/tinyhumansai/openhuman/pull/1483) | feat(human): toggle voice recording with spacebar (#1471) | `merged` |
 | [#1474](https://github.com/tinyhumansai/openhuman/pull/1474) | perf(composio/gmail): cut redundant fetches on incremental sync (#1404) | `open` |
-| [#1473](https://github.com/tinyhumansai/openhuman/pull/1473) | feat(orchestrator): expose update_check + update_apply tools (#1435) | `open` |
+| [#1473](https://github.com/tinyhumansai/openhuman/pull/1473) | feat(orchestrator): expose update_check + update_apply tools (#1435) | `merged` |
 | [#1367](https://github.com/tinyhumansai/openhuman/pull/1367) | fix(agent/triage): tiered cloud → retry → local → defer fallback | `merged` |
 | [#1363](https://github.com/tinyhumansai/openhuman/pull/1363) | fix(memory_tree/jobs): scrub credentials from worker error logs | `merged` |
 | [#1362](https://github.com/tinyhumansai/openhuman/pull/1362) | test(proxy): drop env-leaking runtime_proxy assertion in clear test | `merged` |
@@ -161,7 +161,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1549 · 689 forks
+**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1549 · 690 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -175,7 +175,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4532 · 622 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4534 · 622 forks
 
 | # | Title | Status |
 |---|-------|--------|
