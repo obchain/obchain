@@ -37,14 +37,15 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 <!-- PROTOCOL_CONTRIBUTIONS:START -->
 
 <details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>19 PRs</em></summary>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>20 PRs</em></summary>
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 3009 · 292 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 4348 · 367 forks
 
 | # | Title | Status |
 |---|-------|--------|
+| [#1636](https://github.com/tinyhumansai/openhuman/pull/1636) | fix(credentials): recover from stale auth-profiles.lock | `open` |
 | [#1536](https://github.com/tinyhumansai/openhuman/pull/1536) | fix(accounts): reset transient webview status on rehydrate | `merged` |
 | [#1488](https://github.com/tinyhumansai/openhuman/pull/1488) | feat(orchestrator): collapse per-integration delegation into one tool (#1335) | `open` |
 | [#1483](https://github.com/tinyhumansai/openhuman/pull/1483) | feat(human): toggle voice recording with spacebar (#1471) | `merged` |
@@ -68,7 +69,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>🟣 MahaXYZ</strong>: Core contributor · stablecoin mechanics, governance, cross-chain expansion · <em>15 PRs</em></summary>
+<summary><strong>🟣 MahaXYZ</strong>: Core contributor · stablecoin mechanics, governance, cross-chain expansion · <em>11 PRs</em></summary>
 
 <br>
 
@@ -85,10 +86,6 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | [#48](https://github.com/mahaxyz/contracts/pull/48) | WIP: MAHA Protocol Revenue Collector Contract for USDe to USDC Conversion, Buyback & Burn, and Distribution to sUSDz Stakers | `open` |
 | [#47](https://github.com/mahaxyz/contracts/pull/47) | Add MahaUIHelper Contract for User Staking and Locking Info | `open` |
 | [#46](https://github.com/mahaxyz/contracts/pull/46) | Add support for multiple token types in ZapAerodromePoolUSDC contract using Odos API for swaps | `merged` |
-| [#45](https://github.com/mahaxyz/contracts/pull/45) | WIP: MAHA Protocol Revenue Collector Contract for USDe to USDC Conversion, Buyback & Burn, and Distribution to sUSDz Stakers | `merged` |
-| [#44](https://github.com/mahaxyz/contracts/pull/44) | Add PSM Contract with ERC4626 Support and Yield Collection Functionality | `merged` |
-| [#43](https://github.com/mahaxyz/contracts/pull/43) | Modify ZapAerodromePoolUSDC to Accept Any Token as Input via Odos | `merged` |
-| [#42](https://github.com/mahaxyz/contracts/pull/42) | Deployment Script for LockerToken and OmnichainStaking Contracts | `merged` |
 
 **[mahaxyz/solana-contracts](https://github.com/mahaxyz/solana-contracts)** &nbsp;·&nbsp; 2 forks &nbsp;·&nbsp; Anchor / Rust
 
@@ -105,7 +102,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>🟢 ZeroLend</strong>: Lending protocol · core, governance, oracles, timelocks · <em>9 PRs</em></summary>
+<summary><strong>🟢 ZeroLend</strong>: Lending protocol · core, governance, oracles, timelocks · <em>8 PRs</em></summary>
 
 <br>
 
@@ -124,7 +121,6 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | # | Title | Status |
 |---|-------|--------|
 | [#54](https://github.com/zerolend/governance/pull/54) | Integrate veGovernance Voting Power with Omnichain Staking Contracts | `open` |
-| [#52](https://github.com/zerolend/governance/pull/52) | Update Airdrop Vesting Schedule to 6-Month Cliff with 1-Month Linear Vesting | `open` |
 
 **[zerolend/oracles](https://github.com/zerolend/oracles)** &nbsp;·&nbsp; 4 forks
 
@@ -162,7 +158,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4538 · 624 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4539 · 626 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -177,13 +173,41 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1550 · 690 forks
+**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1550 · 691 forks
 
 | # | Title | Status |
 |---|-------|--------|
 | [#11570](https://github.com/NethermindEth/nethermind/pull/11570) | feat(rpc): expose debug_getFirstFullStateBlock (#1999) | `closed` |
 | [#11553](https://github.com/NethermindEth/nethermind/pull/11553) | feat(chainspec): support shanghai/cancun/prague/osaka hardfork labels | `open` |
 | [#11523](https://github.com/NethermindEth/nethermind/pull/11523) | feat(config): show non-default values on startup | `merged` |
+
+</details>
+
+<details>
+<summary><strong>⚪ gitleaks</strong> · <em>2 PRs</em></summary>
+
+<br>
+
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 26931 · 2043 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#2109](https://github.com/gitleaks/gitleaks/pull/2109) | fix(rules): require sourcegraph context for bare 40-char hex tokens | `open` |
+| [#2108](https://github.com/gitleaks/gitleaks/pull/2108) | fix(rules): tighten square-access-token to cut base64 FPs | `open` |
+
+</details>
+
+<details>
+<summary><strong>⚪ sentient-agi</strong> · <em>2 PRs</em></summary>
+
+<br>
+
+**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3817 · 339 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#52](https://github.com/sentient-agi/OpenDeepSearch/pull/52) | fix: use crawl4ai result.markdown instead of removed markdown_v2 | `open` |
+| [#51](https://github.com/sentient-agi/OpenDeepSearch/pull/51) | fix: replace removed litellm.utils.set_provider_config call | `open` |
 
 </details>
 
