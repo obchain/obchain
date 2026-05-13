@@ -41,11 +41,11 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 2225 · 227 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 3009 · 292 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#1536](https://github.com/tinyhumansai/openhuman/pull/1536) | fix(accounts): reset transient webview status on rehydrate | `open` |
+| [#1536](https://github.com/tinyhumansai/openhuman/pull/1536) | fix(accounts): reset transient webview status on rehydrate | `merged` |
 | [#1488](https://github.com/tinyhumansai/openhuman/pull/1488) | feat(orchestrator): collapse per-integration delegation into one tool (#1335) | `open` |
 | [#1483](https://github.com/tinyhumansai/openhuman/pull/1483) | feat(human): toggle voice recording with spacebar (#1471) | `merged` |
 | [#1474](https://github.com/tinyhumansai/openhuman/pull/1474) | perf(composio/gmail): cut redundant fetches on incremental sync (#1404) | `open` |
@@ -109,7 +109,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[zerolend/core-contracts-v1](https://github.com/zerolend/core-contracts-v1)** &nbsp;·&nbsp; ⭐ 3 · 6 forks
+**[zerolend/core-contracts-v1](https://github.com/zerolend/core-contracts-v1)** &nbsp;·&nbsp; ⭐ 3 · 7 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -145,7 +145,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[digital-asset/daml](https://github.com/digital-asset/daml)** &nbsp;·&nbsp; ⭐ 893 · 255 forks &nbsp;·&nbsp; Official DAML smart contract language
+**[digital-asset/daml](https://github.com/digital-asset/daml)** &nbsp;·&nbsp; ⭐ 895 · 255 forks &nbsp;·&nbsp; Official DAML smart contract language
 
 | # | Title | Status |
 |---|-------|--------|
@@ -162,7 +162,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4536 · 622 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4538 · 624 forks
 
 | # | Title | Status |
 |---|-------|--------|
