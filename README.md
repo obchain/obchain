@@ -37,14 +37,17 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 <!-- PROTOCOL_CONTRIBUTIONS:START -->
 
 <details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>20 PRs</em></summary>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>23 PRs</em></summary>
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 5988 · 491 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 7331 · 587 forks
 
 | # | Title | Status |
 |---|-------|--------|
+| [#1735](https://github.com/tinyhumansai/openhuman/pull/1735) | fix(composio): default singleEvents + timeZone for googlecalendar list (#1714) | `open` |
+| [#1712](https://github.com/tinyhumansai/openhuman/pull/1712) | fix(providers): user-actionable hint when model_fallbacks unconfigured (#1596) | `open` |
+| [#1708](https://github.com/tinyhumansai/openhuman/pull/1708) | fix(composio): retry once on post-OAuth auth-error gap (#1688) | `open` |
 | [#1636](https://github.com/tinyhumansai/openhuman/pull/1636) | fix(credentials): recover from stale auth-profiles.lock | `merged` |
 | [#1536](https://github.com/tinyhumansai/openhuman/pull/1536) | fix(accounts): reset transient webview status on rehydrate | `merged` |
 | [#1488](https://github.com/tinyhumansai/openhuman/pull/1488) | feat(orchestrator): collapse per-integration delegation into one tool (#1335) | `merged` |
@@ -65,39 +68,6 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | [#914](https://github.com/tinyhumansai/openhuman/pull/914) | ci(weekly-review): aggregator + workflow + runbook for #459 | `merged` |
 | [#904](https://github.com/tinyhumansai/openhuman/pull/904) | feat(planner): read-only sandbox gate on composio meta-tools | `merged` |
 | [#877](https://github.com/tinyhumansai/openhuman/pull/877) | fix(install.sh): dry-run exits 0 when platform asset missing | `merged` |
-
-</details>
-
-<details>
-<summary><strong>🟣 MahaXYZ</strong>: Core contributor · stablecoin mechanics, governance, cross-chain expansion · <em>11 PRs</em></summary>
-
-<br>
-
-**[mahaxyz/contracts](https://github.com/mahaxyz/contracts)** &nbsp;·&nbsp; ⭐ 37 · 8 forks &nbsp;·&nbsp; EVM core protocol
-
-| # | Title | Status |
-|---|-------|--------|
-| [#72](https://github.com/mahaxyz/contracts/pull/72) | Unstake & Withdraw Feat on OmnichainStaking Token contract on Base | `open` |
-| [#71](https://github.com/mahaxyz/contracts/pull/71) | Deployment for MahaUIHelper  | `open` |
-| [#70](https://github.com/mahaxyz/contracts/pull/70) | Work on a 4626 vault for MAHA that takes USDC as Collateral | `open` |
-| [#59](https://github.com/mahaxyz/contracts/pull/59) | Deployment of MigratorContract &  BuyBackBurn Maha on Base Chain  | `open` |
-| [#54](https://github.com/mahaxyz/contracts/pull/54) | Implement User Migration with Merkle Tree and Bonus System for MAHA Locker | `open` |
-| [#49](https://github.com/mahaxyz/contracts/pull/49) | Add support for multiple token types in ZapAerodromePoolUSDC contract using Odos API for swaps Fixes | `open` |
-| [#48](https://github.com/mahaxyz/contracts/pull/48) | WIP: MAHA Protocol Revenue Collector Contract for USDe to USDC Conversion, Buyback & Burn, and Distribution to sUSDz Stakers | `open` |
-| [#47](https://github.com/mahaxyz/contracts/pull/47) | Add MahaUIHelper Contract for User Staking and Locking Info | `open` |
-| [#46](https://github.com/mahaxyz/contracts/pull/46) | Add support for multiple token types in ZapAerodromePoolUSDC contract using Odos API for swaps | `merged` |
-
-**[mahaxyz/solana-contracts](https://github.com/mahaxyz/solana-contracts)** &nbsp;·&nbsp; 2 forks &nbsp;·&nbsp; Anchor / Rust
-
-| # | Title | Status |
-|---|-------|--------|
-| [#1](https://github.com/mahaxyz/solana-contracts/pull/1) | Solana Launchpad Contracts | `merged` |
-
-**[mahaxyz/timelocks](https://github.com/mahaxyz/timelocks)** &nbsp;·&nbsp; 1 fork &nbsp;·&nbsp; Multi-chain timelock infrastructure
-
-| # | Title | Status |
-|---|-------|--------|
-| [#1](https://github.com/mahaxyz/timelocks/pull/1) | Added Timelock script for the Unstake & Withdraw OmnichainStaking Token on Base | `open` |
 
 </details>
 
@@ -137,6 +107,34 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
+<summary><strong>🟣 MahaXYZ</strong>: Core contributor · stablecoin mechanics, governance, cross-chain expansion · <em>6 PRs</em></summary>
+
+<br>
+
+**[mahaxyz/contracts](https://github.com/mahaxyz/contracts)** &nbsp;·&nbsp; ⭐ 37 · 8 forks &nbsp;·&nbsp; EVM core protocol
+
+| # | Title | Status |
+|---|-------|--------|
+| [#72](https://github.com/mahaxyz/contracts/pull/72) | Unstake & Withdraw Feat on OmnichainStaking Token contract on Base | `open` |
+| [#71](https://github.com/mahaxyz/contracts/pull/71) | Deployment for MahaUIHelper  | `open` |
+| [#70](https://github.com/mahaxyz/contracts/pull/70) | Work on a 4626 vault for MAHA that takes USDC as Collateral | `open` |
+| [#59](https://github.com/mahaxyz/contracts/pull/59) | Deployment of MigratorContract &  BuyBackBurn Maha on Base Chain  | `open` |
+
+**[mahaxyz/solana-contracts](https://github.com/mahaxyz/solana-contracts)** &nbsp;·&nbsp; 2 forks &nbsp;·&nbsp; Anchor / Rust
+
+| # | Title | Status |
+|---|-------|--------|
+| [#1](https://github.com/mahaxyz/solana-contracts/pull/1) | Solana Launchpad Contracts | `merged` |
+
+**[mahaxyz/timelocks](https://github.com/mahaxyz/timelocks)** &nbsp;·&nbsp; 1 fork &nbsp;·&nbsp; Multi-chain timelock infrastructure
+
+| # | Title | Status |
+|---|-------|--------|
+| [#1](https://github.com/mahaxyz/timelocks/pull/1) | Added Timelock script for the Unstake & Withdraw OmnichainStaking Token on Base | `open` |
+
+</details>
+
+<details>
 <summary><strong>🔵 Digital Asset · DAML</strong>: stdlib docs + `damlc` build inference (official DAML smart contract language) · <em>5 PRs</em></summary>
 
 <br>
@@ -154,11 +152,43 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
+<summary><strong>⚪ gitleaks</strong> · <em>4 PRs</em></summary>
+
+<br>
+
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 26956 · 2045 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#2116](https://github.com/gitleaks/gitleaks/pull/2116) | chore(gitignore): drop stale config paths | `open` |
+| [#2114](https://github.com/gitleaks/gitleaks/pull/2114) | feat(dir): add --source-relative-paths for git/dir fingerprint parity | `open` |
+| [#2109](https://github.com/gitleaks/gitleaks/pull/2109) | fix(rules): require sourcegraph context for bare 40-char hex tokens | `open` |
+| [#2108](https://github.com/gitleaks/gitleaks/pull/2108) | fix(rules): tighten square-access-token to cut base64 FPs | `open` |
+
+</details>
+
+<details>
+<summary><strong>⚪ NethermindEth</strong> · <em>4 PRs</em></summary>
+
+<br>
+
+**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1552 · 692 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#11610](https://github.com/NethermindEth/nethermind/pull/11610) | feat(runner): add --logging-format CLI for structured console logs | `open` |
+| [#11570](https://github.com/NethermindEth/nethermind/pull/11570) | feat(rpc): expose debug_getFirstFullStateBlock (#1999) | `closed` |
+| [#11553](https://github.com/NethermindEth/nethermind/pull/11553) | feat(chainspec): support shanghai/cancun/prague/osaka hardfork labels | `open` |
+| [#11523](https://github.com/NethermindEth/nethermind/pull/11523) | feat(config): show non-default values on startup | `merged` |
+
+</details>
+
+<details>
 <summary><strong>⚪ ag2ai</strong> · <em>3 PRs</em></summary>
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4536 · 626 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4543 · 627 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -169,58 +199,16 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>⚪ NethermindEth</strong> · <em>3 PRs</em></summary>
-
-<br>
-
-**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1551 · 691 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#11570](https://github.com/NethermindEth/nethermind/pull/11570) | feat(rpc): expose debug_getFirstFullStateBlock (#1999) | `closed` |
-| [#11553](https://github.com/NethermindEth/nethermind/pull/11553) | feat(chainspec): support shanghai/cancun/prague/osaka hardfork labels | `open` |
-| [#11523](https://github.com/NethermindEth/nethermind/pull/11523) | feat(config): show non-default values on startup | `merged` |
-
-</details>
-
-<details>
-<summary><strong>⚪ gitleaks</strong> · <em>2 PRs</em></summary>
-
-<br>
-
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 26944 · 2043 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#2109](https://github.com/gitleaks/gitleaks/pull/2109) | fix(rules): require sourcegraph context for bare 40-char hex tokens | `open` |
-| [#2108](https://github.com/gitleaks/gitleaks/pull/2108) | fix(rules): tighten square-access-token to cut base64 FPs | `open` |
-
-</details>
-
-<details>
 <summary><strong>⚪ sentient-agi</strong> · <em>2 PRs</em></summary>
 
 <br>
 
-**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3816 · 339 forks
+**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3815 · 339 forks
 
 | # | Title | Status |
 |---|-------|--------|
 | [#52](https://github.com/sentient-agi/OpenDeepSearch/pull/52) | fix: use crawl4ai result.markdown instead of removed markdown_v2 | `open` |
 | [#51](https://github.com/sentient-agi/OpenDeepSearch/pull/51) | fix: replace removed litellm.utils.set_provider_config call | `open` |
-
-</details>
-
-<details>
-<summary><strong>🟠 MahaDAO</strong>: DAO governance contracts · <em>1 PR</em></summary>
-
-<br>
-
-**[MahaDAO/governance-contracts](https://github.com/MahaDAO/governance-contracts)** &nbsp;·&nbsp; 2 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#30](https://github.com/MahaDAO/governance-contracts/pull/30) | Implement Merkle Tree Creation for MAHAX Locker Migration and Bonus MAHA Distribution | `open` |
 
 </details>
 
