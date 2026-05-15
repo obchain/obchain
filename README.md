@@ -41,13 +41,13 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 7331 · 587 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 7976 · 644 forks
 
 | # | Title | Status |
 |---|-------|--------|
 | [#1735](https://github.com/tinyhumansai/openhuman/pull/1735) | fix(composio): default singleEvents + timeZone for googlecalendar list (#1714) | `open` |
 | [#1712](https://github.com/tinyhumansai/openhuman/pull/1712) | fix(providers): user-actionable hint when model_fallbacks unconfigured (#1596) | `open` |
-| [#1708](https://github.com/tinyhumansai/openhuman/pull/1708) | fix(composio): retry once on post-OAuth auth-error gap (#1688) | `open` |
+| [#1708](https://github.com/tinyhumansai/openhuman/pull/1708) | fix(composio): retry once on post-OAuth auth-error gap (#1688) | `merged` |
 | [#1636](https://github.com/tinyhumansai/openhuman/pull/1636) | fix(credentials): recover from stale auth-profiles.lock | `merged` |
 | [#1536](https://github.com/tinyhumansai/openhuman/pull/1536) | fix(accounts): reset transient webview status on rehydrate | `merged` |
 | [#1488](https://github.com/tinyhumansai/openhuman/pull/1488) | feat(orchestrator): collapse per-integration delegation into one tool (#1335) | `merged` |
@@ -156,7 +156,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 26956 · 2045 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 26970 · 2048 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -188,7 +188,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4543 · 627 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4547 · 627 forks
 
 | # | Title | Status |
 |---|-------|--------|
