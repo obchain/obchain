@@ -37,16 +37,18 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 <!-- PROTOCOL_CONTRIBUTIONS:START -->
 
 <details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>23 PRs</em></summary>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>25 PRs</em></summary>
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 7976 · 644 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 8558 · 704 forks
 
 | # | Title | Status |
 |---|-------|--------|
+| [#1821](https://github.com/tinyhumansai/openhuman/pull/1821) | feat(voice): configurable mascot voice with ElevenLabs picker | `open` |
+| [#1812](https://github.com/tinyhumansai/openhuman/pull/1812) | feat(conversations): dedicated worker-thread UI surface (#1624) | `open` |
 | [#1735](https://github.com/tinyhumansai/openhuman/pull/1735) | fix(composio): default singleEvents + timeZone for googlecalendar list (#1714) | `open` |
-| [#1712](https://github.com/tinyhumansai/openhuman/pull/1712) | fix(providers): user-actionable hint when model_fallbacks unconfigured (#1596) | `open` |
+| [#1712](https://github.com/tinyhumansai/openhuman/pull/1712) | fix(providers): user-actionable hint when model_fallbacks unconfigured (#1596) | `merged` |
 | [#1708](https://github.com/tinyhumansai/openhuman/pull/1708) | fix(composio): retry once on post-OAuth auth-error gap (#1688) | `merged` |
 | [#1636](https://github.com/tinyhumansai/openhuman/pull/1636) | fix(credentials): recover from stale auth-profiles.lock | `merged` |
 | [#1536](https://github.com/tinyhumansai/openhuman/pull/1536) | fix(accounts): reset transient webview status on rehydrate | `merged` |
@@ -72,69 +74,6 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>🟢 ZeroLend</strong>: Lending protocol · core, governance, oracles, timelocks · <em>8 PRs</em></summary>
-
-<br>
-
-**[zerolend/core-contracts-v1](https://github.com/zerolend/core-contracts-v1)** &nbsp;·&nbsp; ⭐ 3 · 7 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#9](https://github.com/zerolend/core-contracts-v1/pull/9) | Hexagate Gator Pool  | `open` |
-| [#8](https://github.com/zerolend/core-contracts-v1/pull/8) | Pool Hypernative Firewall on Base. | `open` |
-| [#7](https://github.com/zerolend/core-contracts-v1/pull/7) | Zerolend Core Contract Liquid E-Mode | `open` |
-| [#6](https://github.com/zerolend/core-contracts-v1/pull/6) | Implement Safety Pool with Aave-style Umbrella Module Functionality | `open` |
-| [#5](https://github.com/zerolend/core-contracts-v1/pull/5) | Integrate Venn Protocol into ZeroLend Core Contracts | `open` |
-
-**[zerolend/governance](https://github.com/zerolend/governance)** &nbsp;·&nbsp; ⭐ 15 · 13 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#54](https://github.com/zerolend/governance/pull/54) | Integrate veGovernance Voting Power with Omnichain Staking Contracts | `open` |
-
-**[zerolend/oracles](https://github.com/zerolend/oracles)** &nbsp;·&nbsp; 4 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#5](https://github.com/zerolend/oracles/pull/5) | Added DIA Aggregator Oracle Contract superOETH-USD on Base | `open` |
-
-**[zerolend/timelocks](https://github.com/zerolend/timelocks)** &nbsp;·&nbsp; 3 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#1](https://github.com/zerolend/timelocks/pull/1) | Timelock script  Pool Implementation Upgrade on Base | `open` |
-
-</details>
-
-<details>
-<summary><strong>🟣 MahaXYZ</strong>: Core contributor · stablecoin mechanics, governance, cross-chain expansion · <em>6 PRs</em></summary>
-
-<br>
-
-**[mahaxyz/contracts](https://github.com/mahaxyz/contracts)** &nbsp;·&nbsp; ⭐ 37 · 8 forks &nbsp;·&nbsp; EVM core protocol
-
-| # | Title | Status |
-|---|-------|--------|
-| [#72](https://github.com/mahaxyz/contracts/pull/72) | Unstake & Withdraw Feat on OmnichainStaking Token contract on Base | `open` |
-| [#71](https://github.com/mahaxyz/contracts/pull/71) | Deployment for MahaUIHelper  | `open` |
-| [#70](https://github.com/mahaxyz/contracts/pull/70) | Work on a 4626 vault for MAHA that takes USDC as Collateral | `open` |
-| [#59](https://github.com/mahaxyz/contracts/pull/59) | Deployment of MigratorContract &  BuyBackBurn Maha on Base Chain  | `open` |
-
-**[mahaxyz/solana-contracts](https://github.com/mahaxyz/solana-contracts)** &nbsp;·&nbsp; 2 forks &nbsp;·&nbsp; Anchor / Rust
-
-| # | Title | Status |
-|---|-------|--------|
-| [#1](https://github.com/mahaxyz/solana-contracts/pull/1) | Solana Launchpad Contracts | `merged` |
-
-**[mahaxyz/timelocks](https://github.com/mahaxyz/timelocks)** &nbsp;·&nbsp; 1 fork &nbsp;·&nbsp; Multi-chain timelock infrastructure
-
-| # | Title | Status |
-|---|-------|--------|
-| [#1](https://github.com/mahaxyz/timelocks/pull/1) | Added Timelock script for the Unstake & Withdraw OmnichainStaking Token on Base | `open` |
-
-</details>
-
-<details>
 <summary><strong>🔵 Digital Asset · DAML</strong>: stdlib docs + `damlc` build inference (official DAML smart contract language) · <em>5 PRs</em></summary>
 
 <br>
@@ -152,11 +91,55 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
+<summary><strong>⚪ NethermindEth</strong> · <em>5 PRs</em></summary>
+
+<br>
+
+**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1552 · 692 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#11618](https://github.com/NethermindEth/nethermind/pull/11618) | perf(blockchain): make ChainHeadSpecProvider lock-free | `open` |
+| [#11610](https://github.com/NethermindEth/nethermind/pull/11610) | feat(runner): add --logging-format CLI for structured console logs | `open` |
+| [#11570](https://github.com/NethermindEth/nethermind/pull/11570) | feat(rpc): expose debug_getFirstFullStateBlock (#1999) | `closed` |
+| [#11553](https://github.com/NethermindEth/nethermind/pull/11553) | feat(chainspec): support shanghai/cancun/prague/osaka hardfork labels | `open` |
+| [#11523](https://github.com/NethermindEth/nethermind/pull/11523) | feat(config): show non-default values on startup | `merged` |
+
+</details>
+
+<details>
+<summary><strong>🟢 ZeroLend</strong>: Lending protocol · core, governance, oracles, timelocks · <em>5 PRs</em></summary>
+
+<br>
+
+**[zerolend/core-contracts-v1](https://github.com/zerolend/core-contracts-v1)** &nbsp;·&nbsp; ⭐ 3 · 7 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#9](https://github.com/zerolend/core-contracts-v1/pull/9) | Hexagate Gator Pool  | `open` |
+| [#8](https://github.com/zerolend/core-contracts-v1/pull/8) | Pool Hypernative Firewall on Base. | `open` |
+| [#7](https://github.com/zerolend/core-contracts-v1/pull/7) | Zerolend Core Contract Liquid E-Mode | `open` |
+
+**[zerolend/oracles](https://github.com/zerolend/oracles)** &nbsp;·&nbsp; 4 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#5](https://github.com/zerolend/oracles/pull/5) | Added DIA Aggregator Oracle Contract superOETH-USD on Base | `open` |
+
+**[zerolend/timelocks](https://github.com/zerolend/timelocks)** &nbsp;·&nbsp; 3 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#1](https://github.com/zerolend/timelocks/pull/1) | Timelock script  Pool Implementation Upgrade on Base | `open` |
+
+</details>
+
+<details>
 <summary><strong>⚪ gitleaks</strong> · <em>4 PRs</em></summary>
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 26970 · 2048 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 26986 · 2048 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -168,18 +151,44 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>⚪ NethermindEth</strong> · <em>4 PRs</em></summary>
+<summary><strong>🟣 MahaXYZ</strong>: Core contributor · stablecoin mechanics, governance, cross-chain expansion · <em>4 PRs</em></summary>
 
 <br>
 
-**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1552 · 692 forks
+**[mahaxyz/contracts](https://github.com/mahaxyz/contracts)** &nbsp;·&nbsp; ⭐ 37 · 8 forks &nbsp;·&nbsp; EVM core protocol
 
 | # | Title | Status |
 |---|-------|--------|
-| [#11610](https://github.com/NethermindEth/nethermind/pull/11610) | feat(runner): add --logging-format CLI for structured console logs | `open` |
-| [#11570](https://github.com/NethermindEth/nethermind/pull/11570) | feat(rpc): expose debug_getFirstFullStateBlock (#1999) | `closed` |
-| [#11553](https://github.com/NethermindEth/nethermind/pull/11553) | feat(chainspec): support shanghai/cancun/prague/osaka hardfork labels | `open` |
-| [#11523](https://github.com/NethermindEth/nethermind/pull/11523) | feat(config): show non-default values on startup | `merged` |
+| [#72](https://github.com/mahaxyz/contracts/pull/72) | Unstake & Withdraw Feat on OmnichainStaking Token contract on Base | `open` |
+| [#71](https://github.com/mahaxyz/contracts/pull/71) | Deployment for MahaUIHelper  | `open` |
+
+**[mahaxyz/solana-contracts](https://github.com/mahaxyz/solana-contracts)** &nbsp;·&nbsp; 2 forks &nbsp;·&nbsp; Anchor / Rust
+
+| # | Title | Status |
+|---|-------|--------|
+| [#1](https://github.com/mahaxyz/solana-contracts/pull/1) | Solana Launchpad Contracts | `merged` |
+
+**[mahaxyz/timelocks](https://github.com/mahaxyz/timelocks)** &nbsp;·&nbsp; 1 fork &nbsp;·&nbsp; Multi-chain timelock infrastructure
+
+| # | Title | Status |
+|---|-------|--------|
+| [#1](https://github.com/mahaxyz/timelocks/pull/1) | Added Timelock script for the Unstake & Withdraw OmnichainStaking Token on Base | `open` |
+
+</details>
+
+<details>
+<summary><strong>⚪ sentient-agi</strong> · <em>4 PRs</em></summary>
+
+<br>
+
+**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3816 · 340 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#58](https://github.com/sentient-agi/OpenDeepSearch/pull/58) | fix: declare wolframalpha as a project dependency | `open` |
+| [#55](https://github.com/sentient-agi/OpenDeepSearch/pull/55) | perf: lazy-load fasttext quality model in context_scraping.utils | `open` |
+| [#52](https://github.com/sentient-agi/OpenDeepSearch/pull/52) | fix: use crawl4ai result.markdown instead of removed markdown_v2 | `open` |
+| [#51](https://github.com/sentient-agi/OpenDeepSearch/pull/51) | fix: replace removed litellm.utils.set_provider_config call | `open` |
 
 </details>
 
@@ -188,27 +197,13 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4547 · 627 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4551 · 627 forks
 
 | # | Title | Status |
 |---|-------|--------|
 | [#2807](https://github.com/ag2ai/ag2/pull/2807) | fix(fast_depends): keep positional args out of **kwargs when passed by name | `open` |
 | [#2806](https://github.com/ag2ai/ag2/pull/2806) | fix(interop/langchain): use arun for async langchain tools | `open` |
 | [#2800](https://github.com/ag2ai/ag2/pull/2800) | fix(beta/policies): pair tool calls/results after history trim | `merged` |
-
-</details>
-
-<details>
-<summary><strong>⚪ sentient-agi</strong> · <em>2 PRs</em></summary>
-
-<br>
-
-**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3815 · 339 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#52](https://github.com/sentient-agi/OpenDeepSearch/pull/52) | fix: use crawl4ai result.markdown instead of removed markdown_v2 | `open` |
-| [#51](https://github.com/sentient-agi/OpenDeepSearch/pull/51) | fix: replace removed litellm.utils.set_provider_config call | `open` |
 
 </details>
 
