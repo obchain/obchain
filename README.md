@@ -41,12 +41,12 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 9214 · 776 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 10125 · 862 forks
 
 | # | Title | Status |
 |---|-------|--------|
 | [#1821](https://github.com/tinyhumansai/openhuman/pull/1821) | feat(voice): configurable mascot voice with ElevenLabs picker | `merged` |
-| [#1812](https://github.com/tinyhumansai/openhuman/pull/1812) | feat(conversations): dedicated worker-thread UI surface (#1624) | `open` |
+| [#1812](https://github.com/tinyhumansai/openhuman/pull/1812) | feat(conversations): dedicated worker-thread UI surface (#1624) | `merged` |
 | [#1735](https://github.com/tinyhumansai/openhuman/pull/1735) | fix(composio): default singleEvents + timeZone for googlecalendar list (#1714) | `merged` |
 | [#1712](https://github.com/tinyhumansai/openhuman/pull/1712) | fix(providers): user-actionable hint when model_fallbacks unconfigured (#1596) | `merged` |
 | [#1708](https://github.com/tinyhumansai/openhuman/pull/1708) | fix(composio): retry once on post-OAuth auth-error gap (#1688) | `merged` |
@@ -139,7 +139,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27001 · 2049 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27010 · 2049 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -197,7 +197,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4556 · 629 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4560 · 631 forks
 
 | # | Title | Status |
 |---|-------|--------|
