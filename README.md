@@ -37,14 +37,17 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 <!-- PROTOCOL_CONTRIBUTIONS:START -->
 
 <details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>25 PRs</em></summary>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>28 PRs</em></summary>
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 14025 · 1201 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 16251 · 1401 forks
 
 | # | Title | Status |
 |---|-------|--------|
+| [#2101](https://github.com/tinyhumansai/openhuman/pull/2101) | fix(integrations): strip inference path from backend URL (#2075) | `open` |
+| [#2087](https://github.com/tinyhumansai/openhuman/pull/2087) | feat(migration): OpenClaw import surface + unblock unified-core Apply | `open` |
+| [#2056](https://github.com/tinyhumansai/openhuman/pull/2056) | fix(meet): guard orchestrator handoff against transcript prompt injection | `open` |
 | [#1821](https://github.com/tinyhumansai/openhuman/pull/1821) | feat(voice): configurable mascot voice with ElevenLabs picker | `merged` |
 | [#1812](https://github.com/tinyhumansai/openhuman/pull/1812) | feat(conversations): dedicated worker-thread UI surface (#1624) | `merged` |
 | [#1735](https://github.com/tinyhumansai/openhuman/pull/1735) | fix(composio): default singleEvents + timeZone for googlecalendar list (#1714) | `merged` |
@@ -74,6 +77,42 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
+<summary><strong>⚪ ag2ai</strong> · <em>6 PRs</em></summary>
+
+<br>
+
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4570 · 633 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#2882](https://github.com/ag2ai/ag2/pull/2882) | fix(claude-review): support forked PRs via pull_request_target + optional PAT | `open` |
+| [#2881](https://github.com/ag2ai/ag2/pull/2881) | fix(captainagent): drop top_p from default LLM config to avoid temperature/top_p conflict | `open` |
+| [#2880](https://github.com/ag2ai/ag2/pull/2880) | fix(guardrails): strip stray guardrail field when parsing LLM JSON | `open` |
+| [#2807](https://github.com/ag2ai/ag2/pull/2807) | fix(fast_depends): keep positional args out of **kwargs when passed by name | `open` |
+| [#2806](https://github.com/ag2ai/ag2/pull/2806) | fix(interop/langchain): use arun for async langchain tools | `open` |
+| [#2800](https://github.com/ag2ai/ag2/pull/2800) | fix(beta/policies): pair tool calls/results after history trim | `merged` |
+
+</details>
+
+<details>
+<summary><strong>⚪ NethermindEth</strong> · <em>6 PRs</em></summary>
+
+<br>
+
+**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1552 · 694 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#11640](https://github.com/NethermindEth/nethermind/pull/11640) | fix(blockchain): defer main-chain events until write batch is flushed | `open` |
+| [#11618](https://github.com/NethermindEth/nethermind/pull/11618) | perf(blockchain): make ChainHeadSpecProvider lock-free | `merged` |
+| [#11610](https://github.com/NethermindEth/nethermind/pull/11610) | feat(runner): add --logging-format CLI for structured console logs | `open` |
+| [#11570](https://github.com/NethermindEth/nethermind/pull/11570) | feat(rpc): expose debug_getFirstFullStateBlock (#1999) | `closed` |
+| [#11553](https://github.com/NethermindEth/nethermind/pull/11553) | feat(chainspec): support shanghai/cancun/prague/osaka hardfork labels | `open` |
+| [#11523](https://github.com/NethermindEth/nethermind/pull/11523) | feat(config): show non-default values on startup | `merged` |
+
+</details>
+
+<details>
 <summary><strong>🔵 Digital Asset · DAML</strong>: stdlib docs + `damlc` build inference (official DAML smart contract language) · <em>5 PRs</em></summary>
 
 <br>
@@ -91,55 +130,11 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>⚪ NethermindEth</strong> · <em>5 PRs</em></summary>
-
-<br>
-
-**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1552 · 694 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#11618](https://github.com/NethermindEth/nethermind/pull/11618) | perf(blockchain): make ChainHeadSpecProvider lock-free | `open` |
-| [#11610](https://github.com/NethermindEth/nethermind/pull/11610) | feat(runner): add --logging-format CLI for structured console logs | `open` |
-| [#11570](https://github.com/NethermindEth/nethermind/pull/11570) | feat(rpc): expose debug_getFirstFullStateBlock (#1999) | `closed` |
-| [#11553](https://github.com/NethermindEth/nethermind/pull/11553) | feat(chainspec): support shanghai/cancun/prague/osaka hardfork labels | `open` |
-| [#11523](https://github.com/NethermindEth/nethermind/pull/11523) | feat(config): show non-default values on startup | `merged` |
-
-</details>
-
-<details>
-<summary><strong>🟢 ZeroLend</strong>: Lending protocol · core, governance, oracles, timelocks · <em>5 PRs</em></summary>
-
-<br>
-
-**[zerolend/core-contracts-v1](https://github.com/zerolend/core-contracts-v1)** &nbsp;·&nbsp; ⭐ 3 · 7 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#9](https://github.com/zerolend/core-contracts-v1/pull/9) | Hexagate Gator Pool  | `open` |
-| [#8](https://github.com/zerolend/core-contracts-v1/pull/8) | Pool Hypernative Firewall on Base. | `open` |
-| [#7](https://github.com/zerolend/core-contracts-v1/pull/7) | Zerolend Core Contract Liquid E-Mode | `open` |
-
-**[zerolend/oracles](https://github.com/zerolend/oracles)** &nbsp;·&nbsp; 4 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#5](https://github.com/zerolend/oracles/pull/5) | Added DIA Aggregator Oracle Contract superOETH-USD on Base | `open` |
-
-**[zerolend/timelocks](https://github.com/zerolend/timelocks)** &nbsp;·&nbsp; 3 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#1](https://github.com/zerolend/timelocks/pull/1) | Timelock script  Pool Implementation Upgrade on Base | `open` |
-
-</details>
-
-<details>
 <summary><strong>⚪ gitleaks</strong> · <em>4 PRs</em></summary>
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27062 · 2049 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27078 · 2051 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -151,37 +146,11 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>🟣 MahaXYZ</strong>: Core contributor · stablecoin mechanics, governance, cross-chain expansion · <em>4 PRs</em></summary>
-
-<br>
-
-**[mahaxyz/contracts](https://github.com/mahaxyz/contracts)** &nbsp;·&nbsp; ⭐ 37 · 8 forks &nbsp;·&nbsp; EVM core protocol
-
-| # | Title | Status |
-|---|-------|--------|
-| [#72](https://github.com/mahaxyz/contracts/pull/72) | Unstake & Withdraw Feat on OmnichainStaking Token contract on Base | `open` |
-| [#71](https://github.com/mahaxyz/contracts/pull/71) | Deployment for MahaUIHelper  | `open` |
-
-**[mahaxyz/solana-contracts](https://github.com/mahaxyz/solana-contracts)** &nbsp;·&nbsp; 2 forks &nbsp;·&nbsp; Anchor / Rust
-
-| # | Title | Status |
-|---|-------|--------|
-| [#1](https://github.com/mahaxyz/solana-contracts/pull/1) | Solana Launchpad Contracts | `merged` |
-
-**[mahaxyz/timelocks](https://github.com/mahaxyz/timelocks)** &nbsp;·&nbsp; 1 fork &nbsp;·&nbsp; Multi-chain timelock infrastructure
-
-| # | Title | Status |
-|---|-------|--------|
-| [#1](https://github.com/mahaxyz/timelocks/pull/1) | Added Timelock script for the Unstake & Withdraw OmnichainStaking Token on Base | `open` |
-
-</details>
-
-<details>
 <summary><strong>⚪ sentient-agi</strong> · <em>4 PRs</em></summary>
 
 <br>
 
-**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3820 · 340 forks
+**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3819 · 340 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -193,17 +162,28 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>⚪ ag2ai</strong> · <em>3 PRs</em></summary>
+<summary><strong>🟣 MahaXYZ</strong>: Core contributor · stablecoin mechanics, governance, cross-chain expansion · <em>1 PR</em></summary>
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4567 · 633 forks
+**[mahaxyz/solana-contracts](https://github.com/mahaxyz/solana-contracts)** &nbsp;·&nbsp; 2 forks &nbsp;·&nbsp; Anchor / Rust
 
 | # | Title | Status |
 |---|-------|--------|
-| [#2807](https://github.com/ag2ai/ag2/pull/2807) | fix(fast_depends): keep positional args out of **kwargs when passed by name | `open` |
-| [#2806](https://github.com/ag2ai/ag2/pull/2806) | fix(interop/langchain): use arun for async langchain tools | `open` |
-| [#2800](https://github.com/ag2ai/ag2/pull/2800) | fix(beta/policies): pair tool calls/results after history trim | `merged` |
+| [#1](https://github.com/mahaxyz/solana-contracts/pull/1) | Solana Launchpad Contracts | `merged` |
+
+</details>
+
+<details>
+<summary><strong>🟢 ZeroLend</strong>: Lending protocol · core, governance, oracles, timelocks · <em>1 PR</em></summary>
+
+<br>
+
+**[zerolend/core-contracts-v1](https://github.com/zerolend/core-contracts-v1)** &nbsp;·&nbsp; ⭐ 3 · 7 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#9](https://github.com/zerolend/core-contracts-v1/pull/9) | Hexagate Gator Pool  | `open` |
 
 </details>
 
