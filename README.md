@@ -41,7 +41,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 11919 · 1036 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 14025 · 1201 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -139,7 +139,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27036 · 2049 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27062 · 2049 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -197,7 +197,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4563 · 632 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4567 · 633 forks
 
 | # | Title | Status |
 |---|-------|--------|
