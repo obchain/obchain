@@ -37,15 +37,17 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 <!-- PROTOCOL_CONTRIBUTIONS:START -->
 
 <details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>28 PRs</em></summary>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>30 PRs</em></summary>
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 18001 · 1570 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 20213 · 1776 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#2101](https://github.com/tinyhumansai/openhuman/pull/2101) | fix(integrations): strip inference path from backend URL (#2075) | `open` |
+| [#2181](https://github.com/tinyhumansai/openhuman/pull/2181) | fix(composio): collect Dynamics 365 org name via required-fields registry (#2127) | `open` |
+| [#2179](https://github.com/tinyhumansai/openhuman/pull/2179) | fix(onboarding): raise snapshot timeout + staged still-working UI (#2156) | `open` |
+| [#2101](https://github.com/tinyhumansai/openhuman/pull/2101) | fix(integrations): strip inference path from backend URL (#2075) | `merged` |
 | [#2087](https://github.com/tinyhumansai/openhuman/pull/2087) | feat(migration): OpenClaw import surface + unblock unified-core Apply | `open` |
 | [#2056](https://github.com/tinyhumansai/openhuman/pull/2056) | fix(meet): guard orchestrator handoff against transcript prompt injection | `open` |
 | [#1821](https://github.com/tinyhumansai/openhuman/pull/1821) | feat(voice): configurable mascot voice with ElevenLabs picker | `merged` |
@@ -77,11 +79,30 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
+<summary><strong>⚪ NethermindEth</strong> · <em>7 PRs</em></summary>
+
+<br>
+
+**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1556 · 697 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#11667](https://github.com/NethermindEth/nethermind/pull/11667) | perf(kute): compile JSON-RPC method filter regex once | `open` |
+| [#11640](https://github.com/NethermindEth/nethermind/pull/11640) | fix(blockchain): defer main-chain events until write batch is flushed | `open` |
+| [#11618](https://github.com/NethermindEth/nethermind/pull/11618) | perf(blockchain): make ChainHeadSpecProvider lock-free | `merged` |
+| [#11610](https://github.com/NethermindEth/nethermind/pull/11610) | feat(runner): add --logging-format CLI for structured console logs | `open` |
+| [#11570](https://github.com/NethermindEth/nethermind/pull/11570) | feat(rpc): expose debug_getFirstFullStateBlock (#1999) | `closed` |
+| [#11553](https://github.com/NethermindEth/nethermind/pull/11553) | feat(chainspec): support shanghai/cancun/prague/osaka hardfork labels | `open` |
+| [#11523](https://github.com/NethermindEth/nethermind/pull/11523) | feat(config): show non-default values on startup | `merged` |
+
+</details>
+
+<details>
 <summary><strong>⚪ ag2ai</strong> · <em>6 PRs</em></summary>
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4573 · 633 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4576 · 633 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -95,20 +116,20 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>⚪ NethermindEth</strong> · <em>6 PRs</em></summary>
+<summary><strong>⚪ gitleaks</strong> · <em>6 PRs</em></summary>
 
 <br>
 
-**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1554 · 695 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27114 · 2052 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#11640](https://github.com/NethermindEth/nethermind/pull/11640) | fix(blockchain): defer main-chain events until write batch is flushed | `open` |
-| [#11618](https://github.com/NethermindEth/nethermind/pull/11618) | perf(blockchain): make ChainHeadSpecProvider lock-free | `merged` |
-| [#11610](https://github.com/NethermindEth/nethermind/pull/11610) | feat(runner): add --logging-format CLI for structured console logs | `open` |
-| [#11570](https://github.com/NethermindEth/nethermind/pull/11570) | feat(rpc): expose debug_getFirstFullStateBlock (#1999) | `closed` |
-| [#11553](https://github.com/NethermindEth/nethermind/pull/11553) | feat(chainspec): support shanghai/cancun/prague/osaka hardfork labels | `open` |
-| [#11523](https://github.com/NethermindEth/nethermind/pull/11523) | feat(config): show non-default values on startup | `merged` |
+| [#2126](https://github.com/gitleaks/gitleaks/pull/2126) | feat(detect): add --log-ignored to surface suppressed findings | `open` |
+| [#2125](https://github.com/gitleaks/gitleaks/pull/2125) | fix(rules): allowlist keyboard chord secrets in generic-api-key | `open` |
+| [#2116](https://github.com/gitleaks/gitleaks/pull/2116) | chore(gitignore): drop stale config paths | `open` |
+| [#2114](https://github.com/gitleaks/gitleaks/pull/2114) | feat(dir): add --source-relative-paths for git/dir fingerprint parity | `open` |
+| [#2109](https://github.com/gitleaks/gitleaks/pull/2109) | fix(rules): require sourcegraph context for bare 40-char hex tokens | `open` |
+| [#2108](https://github.com/gitleaks/gitleaks/pull/2108) | fix(rules): tighten square-access-token to cut base64 FPs | `open` |
 
 </details>
 
@@ -117,7 +138,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[digital-asset/daml](https://github.com/digital-asset/daml)** &nbsp;·&nbsp; ⭐ 895 · 255 forks &nbsp;·&nbsp; Official DAML smart contract language
+**[digital-asset/daml](https://github.com/digital-asset/daml)** &nbsp;·&nbsp; ⭐ 896 · 255 forks &nbsp;·&nbsp; Official DAML smart contract language
 
 | # | Title | Status |
 |---|-------|--------|
@@ -130,23 +151,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>⚪ gitleaks</strong> · <em>4 PRs</em></summary>
-
-<br>
-
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27095 · 2052 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#2116](https://github.com/gitleaks/gitleaks/pull/2116) | chore(gitignore): drop stale config paths | `open` |
-| [#2114](https://github.com/gitleaks/gitleaks/pull/2114) | feat(dir): add --source-relative-paths for git/dir fingerprint parity | `open` |
-| [#2109](https://github.com/gitleaks/gitleaks/pull/2109) | fix(rules): require sourcegraph context for bare 40-char hex tokens | `open` |
-| [#2108](https://github.com/gitleaks/gitleaks/pull/2108) | fix(rules): tighten square-access-token to cut base64 FPs | `open` |
-
-</details>
-
-<details>
-<summary><strong>⚪ sentient-agi</strong> · <em>4 PRs</em></summary>
+<summary><strong>⚪ sentient-agi</strong> · <em>5 PRs</em></summary>
 
 <br>
 
@@ -154,36 +159,11 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 | # | Title | Status |
 |---|-------|--------|
+| [#60](https://github.com/sentient-agi/OpenDeepSearch/pull/60) | fix: drop markdown_v2 access in BasicWebScraper.extract | `open` |
 | [#58](https://github.com/sentient-agi/OpenDeepSearch/pull/58) | fix: declare wolframalpha as a project dependency | `open` |
 | [#55](https://github.com/sentient-agi/OpenDeepSearch/pull/55) | perf: lazy-load fasttext quality model in context_scraping.utils | `open` |
 | [#52](https://github.com/sentient-agi/OpenDeepSearch/pull/52) | fix: use crawl4ai result.markdown instead of removed markdown_v2 | `open` |
 | [#51](https://github.com/sentient-agi/OpenDeepSearch/pull/51) | fix: replace removed litellm.utils.set_provider_config call | `open` |
-
-</details>
-
-<details>
-<summary><strong>🟣 MahaXYZ</strong>: Core contributor · stablecoin mechanics, governance, cross-chain expansion · <em>1 PR</em></summary>
-
-<br>
-
-**[mahaxyz/solana-contracts](https://github.com/mahaxyz/solana-contracts)** &nbsp;·&nbsp; 2 forks &nbsp;·&nbsp; Anchor / Rust
-
-| # | Title | Status |
-|---|-------|--------|
-| [#1](https://github.com/mahaxyz/solana-contracts/pull/1) | Solana Launchpad Contracts | `merged` |
-
-</details>
-
-<details>
-<summary><strong>🟢 ZeroLend</strong>: Lending protocol · core, governance, oracles, timelocks · <em>1 PR</em></summary>
-
-<br>
-
-**[zerolend/core-contracts-v1](https://github.com/zerolend/core-contracts-v1)** &nbsp;·&nbsp; ⭐ 3 · 7 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#9](https://github.com/zerolend/core-contracts-v1/pull/9) | Hexagate Gator Pool  | `open` |
 
 </details>
 
