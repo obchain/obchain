@@ -37,14 +37,16 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 <!-- PROTOCOL_CONTRIBUTIONS:START -->
 
 <details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>30 PRs</em></summary>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>32 PRs</em></summary>
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 21865 · 1942 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 23282 · 2082 forks
 
 | # | Title | Status |
 |---|-------|--------|
+| [#2302](https://github.com/tinyhumansai/openhuman/pull/2302) | fix(jsonrpc): narrow SessionExpired to backend-boundary signal (#2286) | `open` |
+| [#2289](https://github.com/tinyhumansai/openhuman/pull/2289) | fix(memory-workspace): toast + Reveal Folder fallback for View Vault (#2281) | `open` |
 | [#2181](https://github.com/tinyhumansai/openhuman/pull/2181) | fix(composio): collect Dynamics 365 org name via required-fields registry (#2127) | `merged` |
 | [#2179](https://github.com/tinyhumansai/openhuman/pull/2179) | fix(onboarding): raise snapshot timeout + staged still-working UI (#2156) | `merged` |
 | [#2101](https://github.com/tinyhumansai/openhuman/pull/2101) | fix(integrations): strip inference path from backend URL (#2075) | `merged` |
@@ -79,7 +81,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>⚪ NethermindEth</strong> · <em>7 PRs</em></summary>
+<summary><strong>⚪ NethermindEth</strong> · <em>8 PRs</em></summary>
 
 <br>
 
@@ -87,12 +89,13 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 | # | Title | Status |
 |---|-------|--------|
-| [#11667](https://github.com/NethermindEth/nethermind/pull/11667) | perf(kute): compile JSON-RPC method filter regex once | `open` |
-| [#11640](https://github.com/NethermindEth/nethermind/pull/11640) | fix(blockchain): defer main-chain events until write batch is flushed | `open` |
+| [#11703](https://github.com/NethermindEth/nethermind/pull/11703) | fix(trie): rate-limit "Unable to completely prune persisted nodes" warning | `open` |
+| [#11667](https://github.com/NethermindEth/nethermind/pull/11667) | perf(kute): compile JSON-RPC method filter regex once | `merged` |
+| [#11640](https://github.com/NethermindEth/nethermind/pull/11640) | fix(blockchain): defer main-chain events until write batch is flushed | `merged` |
 | [#11618](https://github.com/NethermindEth/nethermind/pull/11618) | perf(blockchain): make ChainHeadSpecProvider lock-free | `merged` |
 | [#11610](https://github.com/NethermindEth/nethermind/pull/11610) | feat(runner): add --logging-format CLI for structured console logs | `open` |
 | [#11570](https://github.com/NethermindEth/nethermind/pull/11570) | feat(rpc): expose debug_getFirstFullStateBlock (#1999) | `closed` |
-| [#11553](https://github.com/NethermindEth/nethermind/pull/11553) | feat(chainspec): support shanghai/cancun/prague/osaka hardfork labels | `open` |
+| [#11553](https://github.com/NethermindEth/nethermind/pull/11553) | feat(chainspec): support shanghai/cancun/prague/osaka hardfork labels | `merged` |
 | [#11523](https://github.com/NethermindEth/nethermind/pull/11523) | feat(config): show non-default values on startup | `merged` |
 
 </details>
@@ -102,7 +105,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4578 · 633 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4581 · 633 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -120,7 +123,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27130 · 2053 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27151 · 2054 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -155,7 +158,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3819 · 340 forks
+**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3820 · 340 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -164,6 +167,21 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | [#55](https://github.com/sentient-agi/OpenDeepSearch/pull/55) | perf: lazy-load fasttext quality model in context_scraping.utils | `open` |
 | [#52](https://github.com/sentient-agi/OpenDeepSearch/pull/52) | fix: use crawl4ai result.markdown instead of removed markdown_v2 | `open` |
 | [#51](https://github.com/sentient-agi/OpenDeepSearch/pull/51) | fix: replace removed litellm.utils.set_provider_config call | `open` |
+
+</details>
+
+<details>
+<summary><strong>⚪ domcyrus</strong> · <em>3 PRs</em></summary>
+
+<br>
+
+**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 3526 · 151 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#296](https://github.com/domcyrus/rustnet/pull/296) | refactor(dpi/ssh): collapse dead conditional around `parse_kexinit_algorithms` | `open` |
+| [#294](https://github.com/domcyrus/rustnet/pull/294) | refactor(dpi/mqtt): include UNSUBSCRIBE in flag-validation match | `open` |
+| [#292](https://github.com/domcyrus/rustnet/pull/292) | refactor(link_layer/pktap): drop no-op byte-order conversions | `open` |
 
 </details>
 
