@@ -41,15 +41,15 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 20213 · 1776 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 21865 · 1942 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#2181](https://github.com/tinyhumansai/openhuman/pull/2181) | fix(composio): collect Dynamics 365 org name via required-fields registry (#2127) | `open` |
-| [#2179](https://github.com/tinyhumansai/openhuman/pull/2179) | fix(onboarding): raise snapshot timeout + staged still-working UI (#2156) | `open` |
+| [#2181](https://github.com/tinyhumansai/openhuman/pull/2181) | fix(composio): collect Dynamics 365 org name via required-fields registry (#2127) | `merged` |
+| [#2179](https://github.com/tinyhumansai/openhuman/pull/2179) | fix(onboarding): raise snapshot timeout + staged still-working UI (#2156) | `merged` |
 | [#2101](https://github.com/tinyhumansai/openhuman/pull/2101) | fix(integrations): strip inference path from backend URL (#2075) | `merged` |
-| [#2087](https://github.com/tinyhumansai/openhuman/pull/2087) | feat(migration): OpenClaw import surface + unblock unified-core Apply | `open` |
-| [#2056](https://github.com/tinyhumansai/openhuman/pull/2056) | fix(meet): guard orchestrator handoff against transcript prompt injection | `open` |
+| [#2087](https://github.com/tinyhumansai/openhuman/pull/2087) | feat(migration): OpenClaw import surface + unblock unified-core Apply | `merged` |
+| [#2056](https://github.com/tinyhumansai/openhuman/pull/2056) | fix(meet): guard orchestrator handoff against transcript prompt injection | `merged` |
 | [#1821](https://github.com/tinyhumansai/openhuman/pull/1821) | feat(voice): configurable mascot voice with ElevenLabs picker | `merged` |
 | [#1812](https://github.com/tinyhumansai/openhuman/pull/1812) | feat(conversations): dedicated worker-thread UI surface (#1624) | `merged` |
 | [#1735](https://github.com/tinyhumansai/openhuman/pull/1735) | fix(composio): default singleEvents + timeZone for googlecalendar list (#1714) | `merged` |
@@ -102,7 +102,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4576 · 633 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4578 · 633 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -120,7 +120,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27114 · 2052 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27130 · 2053 forks
 
 | # | Title | Status |
 |---|-------|--------|
