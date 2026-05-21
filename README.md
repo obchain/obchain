@@ -37,15 +37,16 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 <!-- PROTOCOL_CONTRIBUTIONS:START -->
 
 <details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>32 PRs</em></summary>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>33 PRs</em></summary>
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 23932 · 2150 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 24576 · 2201 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#2302](https://github.com/tinyhumansai/openhuman/pull/2302) | fix(jsonrpc): narrow SessionExpired to backend-boundary signal (#2286) | `open` |
+| [#2444](https://github.com/tinyhumansai/openhuman/pull/2444) | fix(memory/ingestion): bound the job channel + reject submits at cap (#2442) | `open` |
+| [#2302](https://github.com/tinyhumansai/openhuman/pull/2302) | fix(jsonrpc): narrow SessionExpired to backend-boundary signal (#2286) | `closed` |
 | [#2289](https://github.com/tinyhumansai/openhuman/pull/2289) | fix(memory-workspace): toast + Reveal Folder fallback for View Vault (#2281) | `merged` |
 | [#2181](https://github.com/tinyhumansai/openhuman/pull/2181) | fix(composio): collect Dynamics 365 org name via required-fields registry (#2127) | `merged` |
 | [#2179](https://github.com/tinyhumansai/openhuman/pull/2179) | fix(onboarding): raise snapshot timeout + staged still-working UI (#2156) | `merged` |
@@ -81,15 +82,16 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>⚪ NethermindEth</strong> · <em>8 PRs</em></summary>
+<summary><strong>⚪ NethermindEth</strong> · <em>9 PRs</em></summary>
 
 <br>
 
-**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1556 · 698 forks
+**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1557 · 699 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#11703](https://github.com/NethermindEth/nethermind/pull/11703) | fix(trie): rate-limit "Unable to completely prune persisted nodes" warning | `open` |
+| [#11705](https://github.com/NethermindEth/nethermind/pull/11705) | chore(ci): bump remaining actions/create-github-app-token to v3 | `open` |
+| [#11703](https://github.com/NethermindEth/nethermind/pull/11703) | fix(trie): rate-limit "Unable to completely prune persisted nodes" warning | `merged` |
 | [#11667](https://github.com/NethermindEth/nethermind/pull/11667) | perf(kute): compile JSON-RPC method filter regex once | `merged` |
 | [#11640](https://github.com/NethermindEth/nethermind/pull/11640) | fix(blockchain): defer main-chain events until write batch is flushed | `merged` |
 | [#11618](https://github.com/NethermindEth/nethermind/pull/11618) | perf(blockchain): make ChainHeadSpecProvider lock-free | `merged` |
@@ -105,7 +107,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4586 · 634 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4587 · 635 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -123,7 +125,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27159 · 2054 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27176 · 2054 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -141,7 +143,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[digital-asset/daml](https://github.com/digital-asset/daml)** &nbsp;·&nbsp; ⭐ 896 · 255 forks &nbsp;·&nbsp; Official DAML smart contract language
+**[digital-asset/daml](https://github.com/digital-asset/daml)** &nbsp;·&nbsp; ⭐ 897 · 255 forks &nbsp;·&nbsp; Official DAML smart contract language
 
 | # | Title | Status |
 |---|-------|--------|
@@ -154,11 +156,28 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
+<summary><strong>⚪ domcyrus</strong> · <em>5 PRs</em></summary>
+
+<br>
+
+**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 3593 · 155 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#303](https://github.com/domcyrus/rustnet/pull/303) | refactor(dpi/http): drop dead inner `parts.len() >= 3` check | `open` |
+| [#301](https://github.com/domcyrus/rustnet/pull/301) | refactor(dpi/http): case-fold header name without allocating | `open` |
+| [#296](https://github.com/domcyrus/rustnet/pull/296) | refactor(dpi/ssh): collapse dead conditional around `parse_kexinit_algorithms` | `merged` |
+| [#294](https://github.com/domcyrus/rustnet/pull/294) | refactor(dpi/mqtt): include UNSUBSCRIBE in flag-validation match | `merged` |
+| [#292](https://github.com/domcyrus/rustnet/pull/292) | refactor(link_layer/pktap): drop no-op byte-order conversions | `merged` |
+
+</details>
+
+<details>
 <summary><strong>⚪ sentient-agi</strong> · <em>5 PRs</em></summary>
 
 <br>
 
-**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3821 · 340 forks
+**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3822 · 340 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -167,21 +186,6 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | [#55](https://github.com/sentient-agi/OpenDeepSearch/pull/55) | perf: lazy-load fasttext quality model in context_scraping.utils | `open` |
 | [#52](https://github.com/sentient-agi/OpenDeepSearch/pull/52) | fix: use crawl4ai result.markdown instead of removed markdown_v2 | `open` |
 | [#51](https://github.com/sentient-agi/OpenDeepSearch/pull/51) | fix: replace removed litellm.utils.set_provider_config call | `open` |
-
-</details>
-
-<details>
-<summary><strong>⚪ domcyrus</strong> · <em>3 PRs</em></summary>
-
-<br>
-
-**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 3563 · 153 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#296](https://github.com/domcyrus/rustnet/pull/296) | refactor(dpi/ssh): collapse dead conditional around `parse_kexinit_algorithms` | `merged` |
-| [#294](https://github.com/domcyrus/rustnet/pull/294) | refactor(dpi/mqtt): include UNSUBSCRIBE in flag-validation match | `merged` |
-| [#292](https://github.com/domcyrus/rustnet/pull/292) | refactor(link_layer/pktap): drop no-op byte-order conversions | `merged` |
 
 </details>
 
