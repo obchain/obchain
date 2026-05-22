@@ -41,7 +41,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 25095 · 2271 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 25511 · 2329 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -86,16 +86,16 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1557 · 700 forks
+**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1558 · 701 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#11705](https://github.com/NethermindEth/nethermind/pull/11705) | chore(ci): bump remaining actions/create-github-app-token to v3 | `open` |
+| [#11705](https://github.com/NethermindEth/nethermind/pull/11705) | chore(ci): bump remaining actions/create-github-app-token to v3 | `merged` |
 | [#11703](https://github.com/NethermindEth/nethermind/pull/11703) | fix(trie): rate-limit "Unable to completely prune persisted nodes" warning | `merged` |
 | [#11667](https://github.com/NethermindEth/nethermind/pull/11667) | perf(kute): compile JSON-RPC method filter regex once | `merged` |
 | [#11640](https://github.com/NethermindEth/nethermind/pull/11640) | fix(blockchain): defer main-chain events until write batch is flushed | `merged` |
 | [#11618](https://github.com/NethermindEth/nethermind/pull/11618) | perf(blockchain): make ChainHeadSpecProvider lock-free | `merged` |
-| [#11610](https://github.com/NethermindEth/nethermind/pull/11610) | feat(runner): add --logging-format CLI for structured console logs | `open` |
+| [#11610](https://github.com/NethermindEth/nethermind/pull/11610) | feat(runner): add --logging-format CLI for structured console logs | `merged` |
 | [#11570](https://github.com/NethermindEth/nethermind/pull/11570) | feat(rpc): expose debug_getFirstFullStateBlock (#1999) | `closed` |
 | [#11553](https://github.com/NethermindEth/nethermind/pull/11553) | feat(chainspec): support shanghai/cancun/prague/osaka hardfork labels | `merged` |
 | [#11523](https://github.com/NethermindEth/nethermind/pull/11523) | feat(config): show non-default values on startup | `merged` |
@@ -107,7 +107,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4590 · 635 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4593 · 639 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -125,7 +125,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27191 · 2053 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27213 · 2055 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -160,7 +160,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 3618 · 157 forks
+**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 3650 · 161 forks
 
 | # | Title | Status |
 |---|-------|--------|
