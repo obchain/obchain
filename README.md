@@ -41,11 +41,11 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 25782 · 2359 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 26075 · 2388 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#2444](https://github.com/tinyhumansai/openhuman/pull/2444) | fix(memory/ingestion): bound the job channel + reject submits at cap (#2442) | `open` |
+| [#2444](https://github.com/tinyhumansai/openhuman/pull/2444) | fix(memory/ingestion): bound the job channel + reject submits at cap (#2442) | `merged` |
 | [#2302](https://github.com/tinyhumansai/openhuman/pull/2302) | fix(jsonrpc): narrow SessionExpired to backend-boundary signal (#2286) | `closed` |
 | [#2289](https://github.com/tinyhumansai/openhuman/pull/2289) | fix(memory-workspace): toast + Reveal Folder fallback for View Vault (#2281) | `merged` |
 | [#2181](https://github.com/tinyhumansai/openhuman/pull/2181) | fix(composio): collect Dynamics 365 org name via required-fields registry (#2127) | `merged` |
@@ -107,7 +107,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4593 · 639 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4595 · 639 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -125,7 +125,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27224 · 2058 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27233 · 2059 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -160,7 +160,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 3737 · 163 forks
+**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 3837 · 165 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -177,7 +177,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3822 · 340 forks
+**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3823 · 340 forks
 
 | # | Title | Status |
 |---|-------|--------|
