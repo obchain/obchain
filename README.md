@@ -41,7 +41,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 27315 · 2533 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 27663 · 2560 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -82,7 +82,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>⚪ NethermindEth</strong> · <em>9 PRs</em></summary>
+<summary><strong>⚪ NethermindEth</strong> · <em>11 PRs</em></summary>
 
 <br>
 
@@ -90,6 +90,8 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 | # | Title | Status |
 |---|-------|--------|
+| [#11743](https://github.com/NethermindEth/nethermind/pull/11743) | fix(sync): accept receipts with zero bloom from peers | `merged` |
+| [#11742](https://github.com/NethermindEth/nethermind/pull/11742) | test(jsonrpc): fix flaky TransactionReceiptsSubscription tests | `closed` |
 | [#11705](https://github.com/NethermindEth/nethermind/pull/11705) | chore(ci): bump remaining actions/create-github-app-token to v3 | `merged` |
 | [#11703](https://github.com/NethermindEth/nethermind/pull/11703) | fix(trie): rate-limit "Unable to completely prune persisted nodes" warning | `merged` |
 | [#11667](https://github.com/NethermindEth/nethermind/pull/11667) | perf(kute): compile JSON-RPC method filter regex once | `merged` |
@@ -103,11 +105,30 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
+<summary><strong>⚪ domcyrus</strong> · <em>7 PRs</em></summary>
+
+<br>
+
+**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 3969 · 171 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#318](https://github.com/domcyrus/rustnet/pull/318) | feat(ui): direct-jump tab shortcuts (1-5) and bracket cycle aliases | `open` |
+| [#317](https://github.com/domcyrus/rustnet/pull/317) | refactor(dpi/quic): drop redundant `dcid.clone()` in short-header path | `merged` |
+| [#303](https://github.com/domcyrus/rustnet/pull/303) | refactor(dpi/http): drop dead inner `parts.len() >= 3` check | `merged` |
+| [#301](https://github.com/domcyrus/rustnet/pull/301) | refactor(dpi/http): case-fold header name without allocating | `merged` |
+| [#296](https://github.com/domcyrus/rustnet/pull/296) | refactor(dpi/ssh): collapse dead conditional around `parse_kexinit_algorithms` | `merged` |
+| [#294](https://github.com/domcyrus/rustnet/pull/294) | refactor(dpi/mqtt): include UNSUBSCRIBE in flag-validation match | `merged` |
+| [#292](https://github.com/domcyrus/rustnet/pull/292) | refactor(link_layer/pktap): drop no-op byte-order conversions | `merged` |
+
+</details>
+
+<details>
 <summary><strong>⚪ ag2ai</strong> · <em>6 PRs</em></summary>
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4597 · 640 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4600 · 641 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -125,7 +146,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27265 · 2063 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27278 · 2065 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -152,23 +173,6 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | [#22955](https://github.com/digital-asset/daml/pull/22955) | docs(stdlib): fix `Template` constraint claim on internal typeclasses | `closed` |
 | [#22953](https://github.com/digital-asset/daml/pull/22953) | docs(stdlib): clarify DA.List.group groups consecutive elements | `open` |
 | [#22943](https://github.com/digital-asset/daml/pull/22943) | feat(damlc): infer --all for daml build with only multi-package.yaml | `merged` |
-
-</details>
-
-<details>
-<summary><strong>⚪ domcyrus</strong> · <em>5 PRs</em></summary>
-
-<br>
-
-**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 3944 · 170 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#303](https://github.com/domcyrus/rustnet/pull/303) | refactor(dpi/http): drop dead inner `parts.len() >= 3` check | `merged` |
-| [#301](https://github.com/domcyrus/rustnet/pull/301) | refactor(dpi/http): case-fold header name without allocating | `merged` |
-| [#296](https://github.com/domcyrus/rustnet/pull/296) | refactor(dpi/ssh): collapse dead conditional around `parse_kexinit_algorithms` | `merged` |
-| [#294](https://github.com/domcyrus/rustnet/pull/294) | refactor(dpi/mqtt): include UNSUBSCRIBE in flag-validation match | `merged` |
-| [#292](https://github.com/domcyrus/rustnet/pull/292) | refactor(link_layer/pktap): drop no-op byte-order conversions | `merged` |
 
 </details>
 
