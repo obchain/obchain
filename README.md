@@ -37,14 +37,17 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 <!-- PROTOCOL_CONTRIBUTIONS:START -->
 
 <details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>33 PRs</em></summary>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>36 PRs</em></summary>
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 27883 · 2580 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 28201 · 2620 forks
 
 | # | Title | Status |
 |---|-------|--------|
+| [#2695](https://github.com/tinyhumansai/openhuman/pull/2695) | test(security): cover env-overlay path in load_and_get_security_policy_info | `open` |
+| [#2686](https://github.com/tinyhumansai/openhuman/pull/2686) | feat(wallet): surface multi-chain balances in Settings | `open` |
+| [#2664](https://github.com/tinyhumansai/openhuman/pull/2664) | test(memory-sync/github): assert involves: query qualifier | `merged` |
 | [#2444](https://github.com/tinyhumansai/openhuman/pull/2444) | fix(memory/ingestion): bound the job channel + reject submits at cap (#2442) | `merged` |
 | [#2302](https://github.com/tinyhumansai/openhuman/pull/2302) | fix(jsonrpc): narrow SessionExpired to backend-boundary signal (#2286) | `closed` |
 | [#2289](https://github.com/tinyhumansai/openhuman/pull/2289) | fix(memory-workspace): toast + Reveal Folder fallback for View Vault (#2281) | `merged` |
@@ -86,7 +89,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1558 · 701 forks
+**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1558 · 703 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -105,14 +108,15 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>⚪ domcyrus</strong> · <em>7 PRs</em></summary>
+<summary><strong>⚪ domcyrus</strong> · <em>8 PRs</em></summary>
 
 <br>
 
-**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4004 · 176 forks
+**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4039 · 178 forks
 
 | # | Title | Status |
 |---|-------|--------|
+| [#327](https://github.com/domcyrus/rustnet/pull/327) | refactor(dpi/ftp): move owned `Vec<u8>` into String, drop redundant copy | `open` |
 | [#318](https://github.com/domcyrus/rustnet/pull/318) | feat(ui): direct-jump tab shortcuts (1-5) and bracket cycle aliases | `open` |
 | [#317](https://github.com/domcyrus/rustnet/pull/317) | refactor(dpi/quic): drop redundant `dcid.clone()` in short-header path | `merged` |
 | [#303](https://github.com/domcyrus/rustnet/pull/303) | refactor(dpi/http): drop dead inner `parts.len() >= 3` check | `merged` |
@@ -128,7 +132,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4601 · 641 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4604 · 642 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -146,7 +150,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27287 · 2068 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27301 · 2070 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -190,6 +194,20 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | [#55](https://github.com/sentient-agi/OpenDeepSearch/pull/55) | perf: lazy-load fasttext quality model in context_scraping.utils | `open` |
 | [#52](https://github.com/sentient-agi/OpenDeepSearch/pull/52) | fix: use crawl4ai result.markdown instead of removed markdown_v2 | `open` |
 | [#51](https://github.com/sentient-agi/OpenDeepSearch/pull/51) | fix: replace removed litellm.utils.set_provider_config call | `open` |
+
+</details>
+
+<details>
+<summary><strong>⚪ langchain-ai</strong> · <em>2 PRs</em></summary>
+
+<br>
+
+**[langchain-ai/langchain-google](https://github.com/langchain-ai/langchain-google)** &nbsp;·&nbsp; ⭐ 380 · 435 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#1806](https://github.com/langchain-ai/langchain-google/pull/1806) | test(genai): make grounding_metadata assertions resilient to schema additions | `open` |
+| [#1805](https://github.com/langchain-ai/langchain-google/pull/1805) | fix(genai): emit items schema for List[Any] tool parameters | `open` |
 
 </details>
 
