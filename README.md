@@ -37,14 +37,15 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 <!-- PROTOCOL_CONTRIBUTIONS:START -->
 
 <details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>36 PRs</em></summary>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>37 PRs</em></summary>
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 28472 · 2656 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 28746 · 2700 forks
 
 | # | Title | Status |
 |---|-------|--------|
+| [#2734](https://github.com/tinyhumansai/openhuman/pull/2734) | feat(mcp): expose bundled prompts as static MCP resources | `open` |
 | [#2695](https://github.com/tinyhumansai/openhuman/pull/2695) | test(security): cover env-overlay path in load_and_get_security_policy_info | `open` |
 | [#2686](https://github.com/tinyhumansai/openhuman/pull/2686) | feat(wallet): surface multi-chain balances in Settings | `open` |
 | [#2664](https://github.com/tinyhumansai/openhuman/pull/2664) | test(memory-sync/github): assert involves: query qualifier | `merged` |
@@ -85,7 +86,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>⚪ NethermindEth</strong> · <em>11 PRs</em></summary>
+<summary><strong>⚪ NethermindEth</strong> · <em>12 PRs</em></summary>
 
 <br>
 
@@ -93,6 +94,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 | # | Title | Status |
 |---|-------|--------|
+| [#11798](https://github.com/NethermindEth/nethermind/pull/11798) | feat(nix): add developer shell flake for NixOS / nix-darwin | `open` |
 | [#11743](https://github.com/NethermindEth/nethermind/pull/11743) | fix(sync): accept receipts with zero bloom from peers | `merged` |
 | [#11742](https://github.com/NethermindEth/nethermind/pull/11742) | test(jsonrpc): fix flaky TransactionReceiptsSubscription tests | `closed` |
 | [#11705](https://github.com/NethermindEth/nethermind/pull/11705) | chore(ci): bump remaining actions/create-github-app-token to v3 | `merged` |
@@ -108,14 +110,16 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>⚪ domcyrus</strong> · <em>8 PRs</em></summary>
+<summary><strong>⚪ domcyrus</strong> · <em>10 PRs</em></summary>
 
 <br>
 
-**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4059 · 181 forks
+**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4078 · 184 forks
 
 | # | Title | Status |
 |---|-------|--------|
+| [#339](https://github.com/domcyrus/rustnet/pull/339) | perf(dpi): drop redundant `lines().collect::<Vec<&str>>()` in HTTP + SSH parsers | `open` |
+| [#337](https://github.com/domcyrus/rustnet/pull/337) | perf(filter): match SSH connection state via `&'static str`, drop `Debug` allocs | `open` |
 | [#327](https://github.com/domcyrus/rustnet/pull/327) | refactor(dpi/ftp): move owned `Vec<u8>` into String, drop redundant copy | `open` |
 | [#318](https://github.com/domcyrus/rustnet/pull/318) | feat(ui): direct-jump tab shortcuts (1-5) and bracket cycle aliases | `open` |
 | [#317](https://github.com/domcyrus/rustnet/pull/317) | refactor(dpi/quic): drop redundant `dcid.clone()` in short-header path | `merged` |
@@ -150,7 +154,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27311 · 2071 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27323 · 2074 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -168,7 +172,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[digital-asset/daml](https://github.com/digital-asset/daml)** &nbsp;·&nbsp; ⭐ 897 · 256 forks &nbsp;·&nbsp; Official DAML smart contract language
+**[digital-asset/daml](https://github.com/digital-asset/daml)** &nbsp;·&nbsp; ⭐ 899 · 256 forks &nbsp;·&nbsp; Official DAML smart contract language
 
 | # | Title | Status |
 |---|-------|--------|
@@ -198,14 +202,16 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>⚪ langchain-ai</strong> · <em>2 PRs</em></summary>
+<summary><strong>⚪ langchain-ai</strong> · <em>4 PRs</em></summary>
 
 <br>
 
-**[langchain-ai/langchain-google](https://github.com/langchain-ai/langchain-google)** &nbsp;·&nbsp; ⭐ 380 · 435 forks
+**[langchain-ai/langchain-google](https://github.com/langchain-ai/langchain-google)** &nbsp;·&nbsp; ⭐ 380 · 436 forks
 
 | # | Title | Status |
 |---|-------|--------|
+| [#1809](https://github.com/langchain-ai/langchain-google/pull/1809) | fix(genai): preserve additionalProperties so nested dict fields stay OBJECT | `open` |
+| [#1808](https://github.com/langchain-ai/langchain-google/pull/1808) | fix(genai): preserve nested-object required and nullable in tool schemas | `open` |
 | [#1806](https://github.com/langchain-ai/langchain-google/pull/1806) | test(genai): make grounding_metadata assertions resilient to schema additions | `open` |
 | [#1805](https://github.com/langchain-ai/langchain-google/pull/1805) | fix(genai): emit items schema for List[Any] tool parameters | `open` |
 
