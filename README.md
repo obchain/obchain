@@ -37,16 +37,18 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 <!-- PROTOCOL_CONTRIBUTIONS:START -->
 
 <details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>37 PRs</em></summary>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>39 PRs</em></summary>
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 28974 · 2730 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 29173 · 2753 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#2734](https://github.com/tinyhumansai/openhuman/pull/2734) | feat(mcp): expose bundled prompts as static MCP resources | `open` |
-| [#2695](https://github.com/tinyhumansai/openhuman/pull/2695) | test(security): cover env-overlay path in load_and_get_security_policy_info | `open` |
+| [#2828](https://github.com/tinyhumansai/openhuman/pull/2828) | feat(mcp): implement resources/templates/list as static empty catalog | `merged` |
+| [#2821](https://github.com/tinyhumansai/openhuman/pull/2821) | fix(voice): make Whisper/Piper chips reachable from Voice settings | `merged` |
+| [#2734](https://github.com/tinyhumansai/openhuman/pull/2734) | feat(mcp): expose bundled prompts as static MCP resources | `closed` |
+| [#2695](https://github.com/tinyhumansai/openhuman/pull/2695) | test(security): cover env-overlay path in load_and_get_security_policy_info | `merged` |
 | [#2686](https://github.com/tinyhumansai/openhuman/pull/2686) | feat(wallet): surface multi-chain balances in Settings | `open` |
 | [#2664](https://github.com/tinyhumansai/openhuman/pull/2664) | test(memory-sync/github): assert involves: query qualifier | `merged` |
 | [#2444](https://github.com/tinyhumansai/openhuman/pull/2444) | fix(memory/ingestion): bound the job channel + reject submits at cap (#2442) | `merged` |
@@ -86,11 +88,35 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
+<summary><strong>⚪ domcyrus</strong> · <em>12 PRs</em></summary>
+
+<br>
+
+**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4101 · 185 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#345](https://github.com/domcyrus/rustnet/pull/345) | perf: drop `clippy::redundant_clone` calls in render path + sandbox init | `merged` |
+| [#343](https://github.com/domcyrus/rustnet/pull/343) | perf(dpi/quic): drop redundant `dcid.clone()` in long-header parser | `open` |
+| [#339](https://github.com/domcyrus/rustnet/pull/339) | perf(dpi): drop redundant `lines().collect::<Vec<&str>>()` in HTTP + SSH parsers | `open` |
+| [#337](https://github.com/domcyrus/rustnet/pull/337) | perf(filter): match SSH connection state via `&'static str`, drop `Debug` allocs | `open` |
+| [#327](https://github.com/domcyrus/rustnet/pull/327) | refactor(dpi/ftp): move owned `Vec<u8>` into String, drop redundant copy | `open` |
+| [#318](https://github.com/domcyrus/rustnet/pull/318) | feat(ui): direct-jump tab shortcuts (1-5) and bracket cycle aliases | `open` |
+| [#317](https://github.com/domcyrus/rustnet/pull/317) | refactor(dpi/quic): drop redundant `dcid.clone()` in short-header path | `merged` |
+| [#303](https://github.com/domcyrus/rustnet/pull/303) | refactor(dpi/http): drop dead inner `parts.len() >= 3` check | `merged` |
+| [#301](https://github.com/domcyrus/rustnet/pull/301) | refactor(dpi/http): case-fold header name without allocating | `merged` |
+| [#296](https://github.com/domcyrus/rustnet/pull/296) | refactor(dpi/ssh): collapse dead conditional around `parse_kexinit_algorithms` | `merged` |
+| [#294](https://github.com/domcyrus/rustnet/pull/294) | refactor(dpi/mqtt): include UNSUBSCRIBE in flag-validation match | `merged` |
+| [#292](https://github.com/domcyrus/rustnet/pull/292) | refactor(link_layer/pktap): drop no-op byte-order conversions | `merged` |
+
+</details>
+
+<details>
 <summary><strong>⚪ NethermindEth</strong> · <em>12 PRs</em></summary>
 
 <br>
 
-**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1558 · 703 forks
+**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1560 · 704 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -110,28 +136,6 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>⚪ domcyrus</strong> · <em>10 PRs</em></summary>
-
-<br>
-
-**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4087 · 185 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#339](https://github.com/domcyrus/rustnet/pull/339) | perf(dpi): drop redundant `lines().collect::<Vec<&str>>()` in HTTP + SSH parsers | `open` |
-| [#337](https://github.com/domcyrus/rustnet/pull/337) | perf(filter): match SSH connection state via `&'static str`, drop `Debug` allocs | `open` |
-| [#327](https://github.com/domcyrus/rustnet/pull/327) | refactor(dpi/ftp): move owned `Vec<u8>` into String, drop redundant copy | `open` |
-| [#318](https://github.com/domcyrus/rustnet/pull/318) | feat(ui): direct-jump tab shortcuts (1-5) and bracket cycle aliases | `open` |
-| [#317](https://github.com/domcyrus/rustnet/pull/317) | refactor(dpi/quic): drop redundant `dcid.clone()` in short-header path | `merged` |
-| [#303](https://github.com/domcyrus/rustnet/pull/303) | refactor(dpi/http): drop dead inner `parts.len() >= 3` check | `merged` |
-| [#301](https://github.com/domcyrus/rustnet/pull/301) | refactor(dpi/http): case-fold header name without allocating | `merged` |
-| [#296](https://github.com/domcyrus/rustnet/pull/296) | refactor(dpi/ssh): collapse dead conditional around `parse_kexinit_algorithms` | `merged` |
-| [#294](https://github.com/domcyrus/rustnet/pull/294) | refactor(dpi/mqtt): include UNSUBSCRIBE in flag-validation match | `merged` |
-| [#292](https://github.com/domcyrus/rustnet/pull/292) | refactor(link_layer/pktap): drop no-op byte-order conversions | `merged` |
-
-</details>
-
-<details>
 <summary><strong>⚪ ag2ai</strong> · <em>6 PRs</em></summary>
 
 <br>
@@ -143,7 +147,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | [#2882](https://github.com/ag2ai/ag2/pull/2882) | fix(claude-review): support forked PRs via pull_request_target + optional PAT | `open` |
 | [#2881](https://github.com/ag2ai/ag2/pull/2881) | fix(captainagent): drop top_p from default LLM config to avoid temperature/top_p conflict | `closed` |
 | [#2880](https://github.com/ag2ai/ag2/pull/2880) | fix(guardrails): strip stray guardrail field when parsing LLM JSON | `closed` |
-| [#2807](https://github.com/ag2ai/ag2/pull/2807) | fix(fast_depends): keep positional args out of **kwargs when passed by name | `open` |
+| [#2807](https://github.com/ag2ai/ag2/pull/2807) | fix(fast_depends): keep positional args out of **kwargs when passed by name | `closed` |
 | [#2806](https://github.com/ag2ai/ag2/pull/2806) | fix(interop/langchain): use arun for async langchain tools | `merged` |
 | [#2800](https://github.com/ag2ai/ag2/pull/2800) | fix(beta/policies): pair tool calls/results after history trim | `merged` |
 
@@ -154,7 +158,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27336 · 2075 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27351 · 2075 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -185,11 +189,28 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
+<summary><strong>⚪ langchain-ai</strong> · <em>5 PRs</em></summary>
+
+<br>
+
+**[langchain-ai/langchain-google](https://github.com/langchain-ai/langchain-google)** &nbsp;·&nbsp; ⭐ 380 · 437 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#1813](https://github.com/langchain-ai/langchain-google/pull/1813) | fix(genai): handle bare JSON Schema dicts in _format_to_genai_function_declaration | `open` |
+| [#1809](https://github.com/langchain-ai/langchain-google/pull/1809) | fix(genai): preserve additionalProperties so nested dict fields stay OBJECT | `open` |
+| [#1808](https://github.com/langchain-ai/langchain-google/pull/1808) | fix(genai): preserve nested-object required and nullable in tool schemas | `open` |
+| [#1806](https://github.com/langchain-ai/langchain-google/pull/1806) | test(genai): make grounding_metadata assertions resilient to schema additions | `open` |
+| [#1805](https://github.com/langchain-ai/langchain-google/pull/1805) | fix(genai): emit items schema for List[Any] tool parameters | `open` |
+
+</details>
+
+<details>
 <summary><strong>⚪ sentient-agi</strong> · <em>5 PRs</em></summary>
 
 <br>
 
-**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3824 · 340 forks
+**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3825 · 340 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -198,22 +219,6 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | [#55](https://github.com/sentient-agi/OpenDeepSearch/pull/55) | perf: lazy-load fasttext quality model in context_scraping.utils | `open` |
 | [#52](https://github.com/sentient-agi/OpenDeepSearch/pull/52) | fix: use crawl4ai result.markdown instead of removed markdown_v2 | `open` |
 | [#51](https://github.com/sentient-agi/OpenDeepSearch/pull/51) | fix: replace removed litellm.utils.set_provider_config call | `open` |
-
-</details>
-
-<details>
-<summary><strong>⚪ langchain-ai</strong> · <em>4 PRs</em></summary>
-
-<br>
-
-**[langchain-ai/langchain-google](https://github.com/langchain-ai/langchain-google)** &nbsp;·&nbsp; ⭐ 380 · 436 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#1809](https://github.com/langchain-ai/langchain-google/pull/1809) | fix(genai): preserve additionalProperties so nested dict fields stay OBJECT | `open` |
-| [#1808](https://github.com/langchain-ai/langchain-google/pull/1808) | fix(genai): preserve nested-object required and nullable in tool schemas | `open` |
-| [#1806](https://github.com/langchain-ai/langchain-google/pull/1806) | test(genai): make grounding_metadata assertions resilient to schema additions | `open` |
-| [#1805](https://github.com/langchain-ai/langchain-google/pull/1805) | fix(genai): emit items schema for List[Any] tool parameters | `open` |
 
 </details>
 
