@@ -37,14 +37,15 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 <!-- PROTOCOL_CONTRIBUTIONS:START -->
 
 <details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>39 PRs</em></summary>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>40 PRs</em></summary>
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 29324 · 2769 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 29478 · 2783 forks
 
 | # | Title | Status |
 |---|-------|--------|
+| [#2949](https://github.com/tinyhumansai/openhuman/pull/2949) | feat(settings): surface approval history audit trail | `open` |
 | [#2828](https://github.com/tinyhumansai/openhuman/pull/2828) | feat(mcp): implement resources/templates/list as static empty catalog | `merged` |
 | [#2821](https://github.com/tinyhumansai/openhuman/pull/2821) | fix(voice): make Whisper/Piper chips reachable from Voice settings | `merged` |
 | [#2734](https://github.com/tinyhumansai/openhuman/pull/2734) | feat(mcp): expose bundled prompts as static MCP resources | `closed` |
@@ -92,7 +93,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4109 · 185 forks
+**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4120 · 185 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -116,7 +117,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1560 · 704 forks
+**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1560 · 705 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -140,7 +141,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4607 · 644 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4610 · 644 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -158,7 +159,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27362 · 2075 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27373 · 2075 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -193,7 +194,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[langchain-ai/langchain-google](https://github.com/langchain-ai/langchain-google)** &nbsp;·&nbsp; ⭐ 380 · 438 forks
+**[langchain-ai/langchain-google](https://github.com/langchain-ai/langchain-google)** &nbsp;·&nbsp; ⭐ 380 · 439 forks
 
 | # | Title | Status |
 |---|-------|--------|
