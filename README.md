@@ -41,7 +41,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 29173 · 2753 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 29324 · 2769 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -92,7 +92,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4101 · 185 forks
+**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4109 · 185 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -140,11 +140,11 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4606 · 644 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4607 · 644 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#2882](https://github.com/ag2ai/ag2/pull/2882) | fix(claude-review): support forked PRs via pull_request_target + optional PAT | `open` |
+| [#2882](https://github.com/ag2ai/ag2/pull/2882) | fix(claude-review): support forked PRs via pull_request_target + optional PAT | `closed` |
 | [#2881](https://github.com/ag2ai/ag2/pull/2881) | fix(captainagent): drop top_p from default LLM config to avoid temperature/top_p conflict | `closed` |
 | [#2880](https://github.com/ag2ai/ag2/pull/2880) | fix(guardrails): strip stray guardrail field when parsing LLM JSON | `closed` |
 | [#2807](https://github.com/ag2ai/ag2/pull/2807) | fix(fast_depends): keep positional args out of **kwargs when passed by name | `closed` |
@@ -158,7 +158,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27351 · 2075 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27362 · 2075 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -193,7 +193,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[langchain-ai/langchain-google](https://github.com/langchain-ai/langchain-google)** &nbsp;·&nbsp; ⭐ 380 · 437 forks
+**[langchain-ai/langchain-google](https://github.com/langchain-ai/langchain-google)** &nbsp;·&nbsp; ⭐ 380 · 438 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -210,7 +210,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3825 · 340 forks
+**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3823 · 340 forks
 
 | # | Title | Status |
 |---|-------|--------|
