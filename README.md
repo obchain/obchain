@@ -37,20 +37,23 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 <!-- PROTOCOL_CONTRIBUTIONS:START -->
 
 <details>
-<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>40 PRs</em></summary>
+<summary><strong>🟡 TinyHumansAI · OpenHuman</strong>: Personal AI assistant: cron, planner, weekly review, install · <em>41 PRs</em></summary>
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 29478 · 2783 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 29573 · 2800 forks
 
 | # | Title | Status |
 |---|-------|--------|
+| [#2975](https://github.com/tinyhumansai/openhuman/pull/2975) | fix(i18n): localize ChatGPT OAuth strings in onboarding ApiKeysStep | `open` |
+| [#2973](https://github.com/tinyhumansai/openhuman/pull/2973) | feat(settings): make autocomplete tuning fields editable | `open` |
+| [#2966](https://github.com/tinyhumansai/openhuman/pull/2966) | fix(i18n): localize MicComposer getUserMedia error messages | `open` |
 | [#2949](https://github.com/tinyhumansai/openhuman/pull/2949) | feat(settings): surface approval history audit trail | `open` |
 | [#2828](https://github.com/tinyhumansai/openhuman/pull/2828) | feat(mcp): implement resources/templates/list as static empty catalog | `merged` |
 | [#2821](https://github.com/tinyhumansai/openhuman/pull/2821) | fix(voice): make Whisper/Piper chips reachable from Voice settings | `merged` |
 | [#2734](https://github.com/tinyhumansai/openhuman/pull/2734) | feat(mcp): expose bundled prompts as static MCP resources | `closed` |
 | [#2695](https://github.com/tinyhumansai/openhuman/pull/2695) | test(security): cover env-overlay path in load_and_get_security_policy_info | `merged` |
-| [#2686](https://github.com/tinyhumansai/openhuman/pull/2686) | feat(wallet): surface multi-chain balances in Settings | `open` |
+| [#2686](https://github.com/tinyhumansai/openhuman/pull/2686) | feat(wallet): surface multi-chain balances in Settings | `merged` |
 | [#2664](https://github.com/tinyhumansai/openhuman/pull/2664) | test(memory-sync/github): assert involves: query qualifier | `merged` |
 | [#2444](https://github.com/tinyhumansai/openhuman/pull/2444) | fix(memory/ingestion): bound the job channel + reject submits at cap (#2442) | `merged` |
 | [#2302](https://github.com/tinyhumansai/openhuman/pull/2302) | fix(jsonrpc): narrow SessionExpired to backend-boundary signal (#2286) | `closed` |
@@ -83,20 +86,20 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | [#1026](https://github.com/tinyhumansai/openhuman/pull/1026) | fix(cron): route reminders from origin channel, gate announce by allowed_users | `merged` |
 | [#959](https://github.com/tinyhumansai/openhuman/pull/959) | feat(morning_briefing): inject ambient runtime + user + datetime into system prompt | `merged` |
 | [#914](https://github.com/tinyhumansai/openhuman/pull/914) | ci(weekly-review): aggregator + workflow + runbook for #459 | `merged` |
-| [#904](https://github.com/tinyhumansai/openhuman/pull/904) | feat(planner): read-only sandbox gate on composio meta-tools | `merged` |
-| [#877](https://github.com/tinyhumansai/openhuman/pull/877) | fix(install.sh): dry-run exits 0 when platform asset missing | `merged` |
 
 </details>
 
 <details>
-<summary><strong>⚪ domcyrus</strong> · <em>12 PRs</em></summary>
+<summary><strong>⚪ domcyrus</strong> · <em>14 PRs</em></summary>
 
 <br>
 
-**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4120 · 185 forks
+**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4124 · 185 forks
 
 | # | Title | Status |
 |---|-------|--------|
+| [#355](https://github.com/domcyrus/rustnet/pull/355) | perf(types): single-alloc sparkline getters via `skip` instead of double rev-collect | `open` |
+| [#353](https://github.com/domcyrus/rustnet/pull/353) | perf(ui/state): cache lowercase sort key for grouped-process ordering | `open` |
 | [#345](https://github.com/domcyrus/rustnet/pull/345) | perf: drop `clippy::redundant_clone` calls in render path + sandbox init | `merged` |
 | [#343](https://github.com/domcyrus/rustnet/pull/343) | perf(dpi/quic): drop redundant `dcid.clone()` in long-header parser | `open` |
 | [#339](https://github.com/domcyrus/rustnet/pull/339) | perf(dpi): drop redundant `lines().collect::<Vec<&str>>()` in HTTP + SSH parsers | `open` |
@@ -113,14 +116,15 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>⚪ NethermindEth</strong> · <em>12 PRs</em></summary>
+<summary><strong>⚪ NethermindEth</strong> · <em>13 PRs</em></summary>
 
 <br>
 
-**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1560 · 705 forks
+**[NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)** &nbsp;·&nbsp; ⭐ 1561 · 706 forks
 
 | # | Title | Status |
 |---|-------|--------|
+| [#11845](https://github.com/NethermindEth/nethermind/pull/11845) | fix(rpc): drain in-flight JSON-RPC requests before disposing databases | `open` |
 | [#11798](https://github.com/NethermindEth/nethermind/pull/11798) | feat(nix): add developer shell flake for NixOS / nix-darwin | `open` |
 | [#11743](https://github.com/NethermindEth/nethermind/pull/11743) | fix(sync): accept receipts with zero bloom from peers | `merged` |
 | [#11742](https://github.com/NethermindEth/nethermind/pull/11742) | test(jsonrpc): fix flaky TransactionReceiptsSubscription tests | `closed` |
@@ -141,7 +145,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4610 · 644 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4614 · 645 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -159,7 +163,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27373 · 2075 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27383 · 2076 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -169,6 +173,24 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | [#2114](https://github.com/gitleaks/gitleaks/pull/2114) | feat(dir): add --source-relative-paths for git/dir fingerprint parity | `open` |
 | [#2109](https://github.com/gitleaks/gitleaks/pull/2109) | fix(rules): require sourcegraph context for bare 40-char hex tokens | `open` |
 | [#2108](https://github.com/gitleaks/gitleaks/pull/2108) | fix(rules): tighten square-access-token to cut base64 FPs | `open` |
+
+</details>
+
+<details>
+<summary><strong>⚪ langchain-ai</strong> · <em>6 PRs</em></summary>
+
+<br>
+
+**[langchain-ai/langchain-google](https://github.com/langchain-ai/langchain-google)** &nbsp;·&nbsp; ⭐ 381 · 440 forks
+
+| # | Title | Status |
+|---|-------|--------|
+| [#1818](https://github.com/langchain-ai/langchain-google/pull/1818) | fix(genai): propagate the stop instance attribute to the model | `open` |
+| [#1813](https://github.com/langchain-ai/langchain-google/pull/1813) | fix(genai): handle bare JSON Schema dicts in _format_to_genai_function_declaration | `open` |
+| [#1809](https://github.com/langchain-ai/langchain-google/pull/1809) | fix(genai): preserve additionalProperties so nested dict fields stay OBJECT | `open` |
+| [#1808](https://github.com/langchain-ai/langchain-google/pull/1808) | fix(genai): preserve nested-object required and nullable in tool schemas | `open` |
+| [#1806](https://github.com/langchain-ai/langchain-google/pull/1806) | test(genai): make grounding_metadata assertions resilient to schema additions | `open` |
+| [#1805](https://github.com/langchain-ai/langchain-google/pull/1805) | fix(genai): emit items schema for List[Any] tool parameters | `open` |
 
 </details>
 
@@ -186,23 +208,6 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | [#22955](https://github.com/digital-asset/daml/pull/22955) | docs(stdlib): fix `Template` constraint claim on internal typeclasses | `closed` |
 | [#22953](https://github.com/digital-asset/daml/pull/22953) | docs(stdlib): clarify DA.List.group groups consecutive elements | `open` |
 | [#22943](https://github.com/digital-asset/daml/pull/22943) | feat(damlc): infer --all for daml build with only multi-package.yaml | `merged` |
-
-</details>
-
-<details>
-<summary><strong>⚪ langchain-ai</strong> · <em>5 PRs</em></summary>
-
-<br>
-
-**[langchain-ai/langchain-google](https://github.com/langchain-ai/langchain-google)** &nbsp;·&nbsp; ⭐ 380 · 439 forks
-
-| # | Title | Status |
-|---|-------|--------|
-| [#1813](https://github.com/langchain-ai/langchain-google/pull/1813) | fix(genai): handle bare JSON Schema dicts in _format_to_genai_function_declaration | `open` |
-| [#1809](https://github.com/langchain-ai/langchain-google/pull/1809) | fix(genai): preserve additionalProperties so nested dict fields stay OBJECT | `open` |
-| [#1808](https://github.com/langchain-ai/langchain-google/pull/1808) | fix(genai): preserve nested-object required and nullable in tool schemas | `open` |
-| [#1806](https://github.com/langchain-ai/langchain-google/pull/1806) | test(genai): make grounding_metadata assertions resilient to schema additions | `open` |
-| [#1805](https://github.com/langchain-ai/langchain-google/pull/1805) | fix(genai): emit items schema for List[Any] tool parameters | `open` |
 
 </details>
 
