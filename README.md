@@ -41,14 +41,14 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 29669 · 2812 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 29808 · 2827 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#2975](https://github.com/tinyhumansai/openhuman/pull/2975) | fix(i18n): localize ChatGPT OAuth strings in onboarding ApiKeysStep | `open` |
-| [#2973](https://github.com/tinyhumansai/openhuman/pull/2973) | feat(settings): make autocomplete tuning fields editable | `open` |
-| [#2966](https://github.com/tinyhumansai/openhuman/pull/2966) | fix(i18n): localize MicComposer getUserMedia error messages | `open` |
-| [#2949](https://github.com/tinyhumansai/openhuman/pull/2949) | feat(settings): surface approval history audit trail | `open` |
+| [#2975](https://github.com/tinyhumansai/openhuman/pull/2975) | fix(i18n): localize ChatGPT OAuth strings in onboarding ApiKeysStep | `merged` |
+| [#2973](https://github.com/tinyhumansai/openhuman/pull/2973) | feat(settings): make autocomplete tuning fields editable | `merged` |
+| [#2966](https://github.com/tinyhumansai/openhuman/pull/2966) | fix(i18n): localize MicComposer getUserMedia error messages | `merged` |
+| [#2949](https://github.com/tinyhumansai/openhuman/pull/2949) | feat(settings): surface approval history audit trail | `merged` |
 | [#2828](https://github.com/tinyhumansai/openhuman/pull/2828) | feat(mcp): implement resources/templates/list as static empty catalog | `merged` |
 | [#2821](https://github.com/tinyhumansai/openhuman/pull/2821) | fix(voice): make Whisper/Piper chips reachable from Voice settings | `merged` |
 | [#2734](https://github.com/tinyhumansai/openhuman/pull/2734) | feat(mcp): expose bundled prompts as static MCP resources | `closed` |
@@ -93,18 +93,18 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4127 · 185 forks
+**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4131 · 185 forks
 
 | # | Title | Status |
 |---|-------|--------|
-| [#355](https://github.com/domcyrus/rustnet/pull/355) | perf(types): single-alloc sparkline getters via `skip` instead of double rev-collect | `open` |
+| [#355](https://github.com/domcyrus/rustnet/pull/355) | perf(types): single-alloc sparkline getters via `skip` instead of double rev-collect | `merged` |
 | [#353](https://github.com/domcyrus/rustnet/pull/353) | perf(ui/state): cache lowercase sort key for grouped-process ordering | `open` |
 | [#345](https://github.com/domcyrus/rustnet/pull/345) | perf: drop `clippy::redundant_clone` calls in render path + sandbox init | `merged` |
 | [#343](https://github.com/domcyrus/rustnet/pull/343) | perf(dpi/quic): drop redundant `dcid.clone()` in long-header parser | `open` |
-| [#339](https://github.com/domcyrus/rustnet/pull/339) | perf(dpi): drop redundant `lines().collect::<Vec<&str>>()` in HTTP + SSH parsers | `open` |
+| [#339](https://github.com/domcyrus/rustnet/pull/339) | perf(dpi): drop redundant `lines().collect::<Vec<&str>>()` in HTTP + SSH parsers | `merged` |
 | [#337](https://github.com/domcyrus/rustnet/pull/337) | perf(filter): match SSH connection state via `&'static str`, drop `Debug` allocs | `open` |
-| [#327](https://github.com/domcyrus/rustnet/pull/327) | refactor(dpi/ftp): move owned `Vec<u8>` into String, drop redundant copy | `open` |
-| [#318](https://github.com/domcyrus/rustnet/pull/318) | feat(ui): direct-jump tab shortcuts (1-5) and bracket cycle aliases | `open` |
+| [#327](https://github.com/domcyrus/rustnet/pull/327) | refactor(dpi/ftp): move owned `Vec<u8>` into String, drop redundant copy | `merged` |
+| [#318](https://github.com/domcyrus/rustnet/pull/318) | feat(ui): direct-jump tab shortcuts (1-5) and bracket cycle aliases | `merged` |
 | [#317](https://github.com/domcyrus/rustnet/pull/317) | refactor(dpi/quic): drop redundant `dcid.clone()` in short-header path | `merged` |
 | [#303](https://github.com/domcyrus/rustnet/pull/303) | refactor(dpi/http): drop dead inner `parts.len() >= 3` check | `merged` |
 | [#301](https://github.com/domcyrus/rustnet/pull/301) | refactor(dpi/http): case-fold header name without allocating | `merged` |
@@ -144,7 +144,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4615 · 645 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4616 · 645 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -162,7 +162,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27392 · 2077 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27407 · 2079 forks
 
 | # | Title | Status |
 |---|-------|--------|
