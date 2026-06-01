@@ -41,7 +41,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 29897 · 2838 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 30101 · 2866 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -92,7 +92,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4134 · 185 forks
+**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4145 · 185 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -143,7 +143,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4615 · 646 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4618 · 646 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -161,7 +161,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27413 · 2080 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27430 · 2079 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -179,7 +179,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[langchain-ai/langchain-google](https://github.com/langchain-ai/langchain-google)** &nbsp;·&nbsp; ⭐ 383 · 440 forks
+**[langchain-ai/langchain-google](https://github.com/langchain-ai/langchain-google)** &nbsp;·&nbsp; ⭐ 385 · 440 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -193,28 +193,11 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 </details>
 
 <details>
-<summary><strong>🔵 Digital Asset · DAML</strong>: stdlib docs + `damlc` build inference (official DAML smart contract language) · <em>5 PRs</em></summary>
-
-<br>
-
-**[digital-asset/daml](https://github.com/digital-asset/daml)** &nbsp;·&nbsp; ⭐ 900 · 256 forks &nbsp;·&nbsp; Official DAML smart contract language
-
-| # | Title | Status |
-|---|-------|--------|
-| [#22989](https://github.com/digital-asset/daml/pull/22989) | docs: document short-circuit evaluation for &&, \|\|, when, unless | `open` |
-| [#22963](https://github.com/digital-asset/daml/pull/22963) | docs: document `hiding` and selective import forms | `open` |
-| [#22955](https://github.com/digital-asset/daml/pull/22955) | docs(stdlib): fix `Template` constraint claim on internal typeclasses | `closed` |
-| [#22953](https://github.com/digital-asset/daml/pull/22953) | docs(stdlib): clarify DA.List.group groups consecutive elements | `open` |
-| [#22943](https://github.com/digital-asset/daml/pull/22943) | feat(damlc): infer --all for daml build with only multi-package.yaml | `merged` |
-
-</details>
-
-<details>
 <summary><strong>⚪ sentient-agi</strong> · <em>5 PRs</em></summary>
 
 <br>
 
-**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3823 · 340 forks
+**[sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch)** &nbsp;·&nbsp; ⭐ 3824 · 340 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -223,6 +206,22 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | [#55](https://github.com/sentient-agi/OpenDeepSearch/pull/55) | perf: lazy-load fasttext quality model in context_scraping.utils | `open` |
 | [#52](https://github.com/sentient-agi/OpenDeepSearch/pull/52) | fix: use crawl4ai result.markdown instead of removed markdown_v2 | `open` |
 | [#51](https://github.com/sentient-agi/OpenDeepSearch/pull/51) | fix: replace removed litellm.utils.set_provider_config call | `open` |
+
+</details>
+
+<details>
+<summary><strong>🔵 Digital Asset · DAML</strong>: stdlib docs + `damlc` build inference (official DAML smart contract language) · <em>4 PRs</em></summary>
+
+<br>
+
+**[digital-asset/daml](https://github.com/digital-asset/daml)** &nbsp;·&nbsp; ⭐ 901 · 256 forks &nbsp;·&nbsp; Official DAML smart contract language
+
+| # | Title | Status |
+|---|-------|--------|
+| [#22989](https://github.com/digital-asset/daml/pull/22989) | docs: document short-circuit evaluation for &&, \|\|, when, unless | `open` |
+| [#22963](https://github.com/digital-asset/daml/pull/22963) | docs: document `hiding` and selective import forms | `open` |
+| [#22955](https://github.com/digital-asset/daml/pull/22955) | docs(stdlib): fix `Template` constraint claim on internal typeclasses | `closed` |
+| [#22953](https://github.com/digital-asset/daml/pull/22953) | docs(stdlib): clarify DA.List.group groups consecutive elements | `open` |
 
 </details>
 
