@@ -41,7 +41,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 30337 · 2894 forks
+**[tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)** &nbsp;·&nbsp; ⭐ 30418 · 2913 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -92,7 +92,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4168 · 185 forks
+**[domcyrus/rustnet](https://github.com/domcyrus/rustnet)** &nbsp;·&nbsp; ⭐ 4181 · 185 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -123,7 +123,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 | # | Title | Status |
 |---|-------|--------|
 | [#11845](https://github.com/NethermindEth/nethermind/pull/11845) | fix(rpc): drain in-flight JSON-RPC requests before disposing databases | `open` |
-| [#11798](https://github.com/NethermindEth/nethermind/pull/11798) | feat(nix): add developer shell flake for NixOS / nix-darwin | `open` |
+| [#11798](https://github.com/NethermindEth/nethermind/pull/11798) | feat(nix): add developer shell flake for NixOS / nix-darwin | `closed` |
 | [#11743](https://github.com/NethermindEth/nethermind/pull/11743) | fix(sync): accept receipts with zero bloom from peers | `merged` |
 | [#11742](https://github.com/NethermindEth/nethermind/pull/11742) | test(jsonrpc): fix flaky TransactionReceiptsSubscription tests | `closed` |
 | [#11705](https://github.com/NethermindEth/nethermind/pull/11705) | chore(ci): bump remaining actions/create-github-app-token to v3 | `merged` |
@@ -143,7 +143,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4621 · 645 forks
+**[ag2ai/ag2](https://github.com/ag2ai/ag2)** &nbsp;·&nbsp; ⭐ 4624 · 645 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -161,7 +161,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27447 · 2082 forks
+**[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** &nbsp;·&nbsp; ⭐ 27457 · 2085 forks
 
 | # | Title | Status |
 |---|-------|--------|
@@ -214,7 +214,7 @@ Currently freelancing on protocol design, smart-contract engineering, AI agent i
 
 <br>
 
-**[digital-asset/daml](https://github.com/digital-asset/daml)** &nbsp;·&nbsp; ⭐ 901 · 256 forks &nbsp;·&nbsp; Official DAML smart contract language
+**[digital-asset/daml](https://github.com/digital-asset/daml)** &nbsp;·&nbsp; ⭐ 902 · 256 forks &nbsp;·&nbsp; Official DAML smart contract language
 
 | # | Title | Status |
 |---|-------|--------|
