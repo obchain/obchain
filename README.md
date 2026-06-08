@@ -17,55 +17,25 @@ My foundation is deep backend work in Rust (Tokio, Axum), Go, and Node.js: event
 ## What I work with
 
 - **Languages:** Rust, Go, TypeScript, JavaScript, Python, Solidity
-- **Backend & Systems:** distributed systems, microservices, event-driven architecture, REST, gRPC, WebSockets, message queues, pub/sub, caching, idempotency, horizontal scaling, fault tolerance, concurrency (Tokio, goroutines, async/await), zero-copy parsing, connection pooling, Axum, Actix, Express.js, Gin
-- **Platform & DevOps:** Kubernetes (GKE, EKS), Docker, Terraform, GitHub Actions CI/CD, AWS, GCP, zero-downtime and rolling deploys, automated rollback, Prometheus, Grafana, structured logging, distributed tracing, SLOs, incident response
-- **Agentic Engineering:** Claude, Anthropic SDK, Model Context Protocol (MCP), agent harnesses, memory and knowledge systems, canonicalization, chunking, retrieval and summarization pipelines, vector databases, LLM-assisted testing and code review, Claude Code, Codex
-- **Data Stores:** PostgreSQL, Redis, MongoDB, SQLite, time-series stores, query optimization, indexing, connection pooling
-- **On-chain:** Solidity, EVM and Solana, account abstraction (ERC-4337), DeFi protocols, ethers.js, viem, Foundry, Hardhat, Anchor
+- **Backend:** microservices, event-driven architecture, REST, gRPC, WebSockets, Tokio, Axum, Actix, Gin, Express.js
+- **Platform:** Kubernetes (GKE, EKS), Docker, Terraform, GitHub Actions, AWS, GCP, Prometheus, Grafana, SLOs
+- **AI Agents:** Claude, Anthropic SDK, MCP, memory and knowledge systems, retrieval and summarization pipelines, vector databases
+- **Data:** PostgreSQL, Redis, MongoDB, SQLite
+- **On-chain:** EVM and Solana, ERC-4337, DeFi, ethers.js, viem, Foundry, Hardhat, Anchor
 
 ## Experiences
 
-### Backend & Systems
+**Backend & Systems:** Built Go and Rust services for indexing, position tracking, and APY computation with concurrent worker pools, syncing on-chain state into low-latency APIs across millions of daily events without state drift. Exposed gRPC/REST/WebSocket APIs on PostgreSQL, with high-throughput Tokio/Axum pipelines tuned via zero-copy parsing and bounded concurrency, plus a Rust relayer/keeper for exactly-once execution under load.
 
-- Built Go backend services for protocol indexing, position tracking, and APY computation, using concurrent worker pools to sync on-chain state into low-latency client-facing APIs without state drift across millions of daily events.
-- Developed Node.js/TypeScript services exposing REST and WebSocket APIs for real-time position and liquidation data, backed by PostgreSQL with structured logging and metrics.
-- Built high-throughput Rust services on Tokio and Axum: async event listeners and indexing pipelines streaming upstream data into client backends, tuned with zero-copy parsing, connection pooling, and bounded concurrency for sustained low latency.
-- Implemented a Rust relayer/keeper coordinating submission, retries, and nonce sequencing across redundant endpoints for reliable exactly-once execution under load.
-- Exposed gRPC and REST APIs from goroutine-based Go microservices on PostgreSQL, with Prometheus instrumentation and structured logging baked in from day one.
-- Established modular, upgradeable service architectures enabling extensibility and zero-downtime evolution of long-running systems.
+**Platform & Reliability:** Owned the platform stack: Kubernetes on GKE/EKS provisioned with Terraform, GitHub Actions CI/CD with rolling deploys and automated rollback across GCP and AWS, and SLO-backed alerting on latency and error budgets to cut time-to-detect through proactive monitoring.
 
-### Platform & Reliability
+**AI Agent Infrastructure:** 50+ merged PRs to OpenHuman, a Rust + TypeScript open-source agent harness. Designed the agent's memory tree and knowledge base with a canonicalization, chunking, and summarization pipeline backed by embedded SQLite, and built typed tool interfaces and OAuth-connector flows for safe external service invocation.
 
-- Owned the platform stack: provisioned Kubernetes workloads on GKE/EKS with Terraform, ran GitHub Actions CI/CD with rolling deploys and automated rollback, and kept services available through breaking upgrades.
-- Stood up delivery pipelines for Dockerized Go and Rust services with Kubernetes deploys and Terraform-managed infrastructure across GCP and AWS for repeatable zero-downtime releases.
-- Hardened reliability with SLO-backed alerting on latency and error budgets, cutting time-to-detect on failed executions through proactive monitoring rather than user reports.
-
-### AI Agent Infrastructure
-
-- Contributed 50+ merged PRs to OpenHuman, a Rust + TypeScript open-source AI agent harness, across the Rust core, Tauri desktop app, and developer tooling.
-- Designed the agent's memory tree and knowledge base in the Rust core, including the canonicalization, chunking, and summarization pipeline that turns raw context into retrievable long-term memory, backed by embedded SQLite storage.
-- Built typed tool interfaces and OAuth-connector flows that let the agent invoke external services safely, shipping the integration layer end to end across the Rust core and TypeScript desktop app.
-- Drove an agent-driven development workflow using Claude Code and Codex to scaffold, review, and test changes, matching the project's own dogfooding model.
-
-### Blockchain & DeFi
-
-- Designed and optimized AMMs (Automated Market Makers), with a deep understanding of liquidity pools, token-swap logic, fee distribution, and DEX dynamics.
-- Worked on lending and borrowing design heavily influenced by the concentrated-liquidity mechanism of Uniswap V3, enabling more efficient capital utilization.
-- Integrated ERC-4337 account abstraction with session keys, enabling smart-account collateral management, Paymaster-sponsored gasless transactions, and pre-approved keeper actions.
-- Developed a Solana OFT via LayerZero for Base to Solana transfers, with Token2022 tax-enabled tokens and Raydium CLMM pools using solana-web3.js.
-- Developed Solana programs in Rust with Anchor using the SPL Token program, PDAs, and CPIs, and built SPL token and vault programs with mint/transfer authorities and Borsh serialization.
-- Automated multi-chain deployment with Hardhat scripts across Ethereum, Linea, zkSync, Optimism, and Manta for consistent, repeatable release workflows.
-- Built Node.js services with Chainlink oracle pipelines to index events, serve off-chain data, and keep pricing and risk metrics in sync with on-chain state. Oracles worked with: Chainlink, Pyth, TWAP, RedStone.
-- Developed and deployed ERC-20, ERC-721, ERC-1155, and ERC-2535 (Diamond) contracts to tokenize in-game rewards, merchandise, and collectibles, plus staking contracts for platform-token rewards.
-- Created a transparent on-chain betting settlement contract, optimizing the settlement algorithm to cut computation time by 40%.
-- Designed upgradeable contracts using Transparent and UUPS proxy patterns, with EIP-1155/2535/777 integration for modularity and extended token functionality.
-- Chains worked on: Ethereum, Binance, Polygon, Arbitrum, opBNB, Linea, zkSync, Optimism, Manta, Solana.
+**Blockchain & DeFi:** Designed and optimized AMMs and Uniswap V3-influenced lending and borrowing. Integrated ERC-4337 account abstraction with session keys and gasless transactions, built a LayerZero OFT for Base to Solana transfers, and wrote Solana programs in Rust with Anchor. Deployed across Ethereum, Polygon, Arbitrum, Linea, zkSync, Optimism, Manta, and Solana, with Chainlink/Pyth/TWAP oracle pipelines and a betting-settlement contract optimized to cut computation time by 40%.
 
 ## What I'm Building
 
-Currently contributing to **OpenHuman** (TinyHumans), a Rust + TypeScript open-source AI agent harness, with 50+ merged PRs across the Rust core, Tauri desktop app, and developer tooling. I designed the agent's memory tree and knowledge base in the Rust core, including the canonicalization, chunking, and summarization pipeline that turns raw context into retrievable long-term memory, backed by embedded SQLite. I also built typed tool interfaces and OAuth-connector flows that let the agent invoke external services safely, and I drive an agent-driven development workflow using Claude Code and Codex to scaffold, review, and test changes.
-
-Alongside this I build protocol tooling such as **[MantissaFi](https://github.com/obchain/MantissaFi)**, a fully on-chain European options protocol computing Black-Scholes pricing and Greeks entirely in Solidity (gas-optimized with PRBMath SD59x18), with an on-chain implied-volatility surface, verified with Foundry fuzz/invariant tests and Certora/Halmos formal proofs.
+Currently contributing to **OpenHuman** (TinyHumans), a Rust + TypeScript open-source AI agent harness, with 50+ merged PRs across the Rust core, Tauri desktop app, and developer tooling. Alongside this I build protocol tooling such as **[MantissaFi](https://github.com/obchain/MantissaFi)**, a fully on-chain European options protocol computing Black-Scholes pricing and Greeks entirely in Solidity, verified with Foundry fuzz/invariant tests and Certora/Halmos formal proofs.
 
 ## Protocol Contributions
 
